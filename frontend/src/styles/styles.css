@@ -1,0 +1,31 @@
+/* Import the Nunito Sans font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@500&display=swap');
+
+
+nav a {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: large;
+}
+
+.cetalks-font {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 5px;
+  }
+
+.member-img {
+    position: relative;
+  }
+
+.member-img img {
+    transition: filter 0.5s ease; /* Add a transition for a smoother effect */
+  }
+  
+  
+.member-img:hover img{
+    filter: grayscale(100%);
+  }
+
+.bg-26221E {
+    background-color: white;
+  }
