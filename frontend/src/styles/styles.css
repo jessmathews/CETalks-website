@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@500&display=swap');
 
 
+
 nav a {
   font-family: 'Nunito Sans', sans-serif;
   font-size: large;
@@ -11,6 +12,10 @@ nav a {
 .cetalks-font {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 5px;
+  }
+
+.outfit-font {
+    font-family: 'Outfit', sans-serif;
   }
 
 .member-img {
@@ -29,3 +34,61 @@ nav a {
 .bg-26221E {
     background-color: white;
   }
+
+  .bg-firebrick-100 {
+    background-color: rgb(202 48 53 / 1);
+  }
+
+.hover\:bg-salmon-100:hover {
+  background-color: rgb(240 87 92 /1);
+}
+
+.hover\:bg-salmon-200:hover  {
+  background-color: rgba(240, 87, 92, 0.09);
+}
+
+.hover\:border-salmon-100:hover {
+  border-color: rgb(240 87 92 /1);
+}
+
+.border-firebrick-100 {
+    border-color: rgb(202 48 53 / 1);
+}
+
+@media (max-width: 767px) {
+  .responsive-ytiframe-homepage {
+    height: 15rem; /* Adjust the height for smaller screens as needed */
+  }
+}
+
+.max-w-yif {
+  max-width: 50vw;
+}
+
+@media (max-width: 767px) {
+  .max-w-yif {
+    max-width: 80vw; /* Adjust the percentage as needed */
+  }
+}
+
+@media (max-width: 991px) {
+  .max-w-yif {
+    max-width: 70vw; /* Adjust the percentage as needed */
+  }
+}
+
+.max-w-sif {
+  max-width: 50vw;
+}
+
+@media (max-width: 767px) {
+  .max-w-sif {
+    max-width: 80vw; /* Adjust the percentage as needed */
+  }
+}
+
+@media (max-width: 991px) {
+  .max-w-sif {
+    max-width: 70vw; /* Adjust the percentage as needed */
+  }
+}

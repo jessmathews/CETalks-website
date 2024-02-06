@@ -20,17 +20,17 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-black text-white p-6 fixed w-full top-0 z-50">
+    <header className="bg-07060e text-white p-6 fixed w-full top-0 z-50">
     <div className="container mx-auto pr-8 flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <img src="/images/cetalks-logo.png" alt="CETalks Logo" className="w-12 h-12" />
-          <span className="ml-3 text-2xl font-semibold cetalks-font">CETALKS</span>
+          <span className="ml-3 text-2xl font-semibold cetalks-font tracking-[0.8rem]">CETALKS</span>
         </Link>
 
         {/* Hamburger Menu for smaller screens */}
         <button
-          className="md:hidden focus:outline-none"
+          className="lg:hidden focus:outline-none"
           onClick={handleNavToggle}
         >
           {isNavOpen ? (
@@ -68,91 +68,86 @@ const Header = () => {
 
         {/* Full-width Dropdown Menu for smaller screens */}
         {isNavOpen && (
-          <div className="md:hidden w-full absolute top-20 left-0 bg-black text-white text-center">
+          <div className="lg:hidden w-full absolute top-20 left-0 bg-black text-white text-center outfit-font">
             <Link
               to="/"
               className={`block py-3 hover:text-yellow-100 font-medium ${location.pathname === '/' ? 'text-yellow-200' : ''}`}
               onClick={closeNav}
             >
-              Home
-            </Link>
-            <Link
-              to="/media"
-              className={`block py-3 hover:text-yellow-100 font-medium ${location.pathname === '/media' ? 'text-yellow-200' : ''}`}
-              onClick={closeNav}
-            >
-              Media
+              home
             </Link>
             <Link
               to="/events"
               className={`block py-3 hover:text-yellow-100 font-medium ${location.pathname === '/events' ? 'text-yellow-200' : ''}`}
               onClick={closeNav}
             >
-              Events
+              events
             </Link>
             <Link
-              to="/our-team"
-              className={`block py-3 hover:text-yellow-100 font-medium ${location.pathname === '/our-team' ? 'text-yellow-200' : ''}`}
+              to="/media"
+              className={`block py-3 hover:text-yellow-100 font-medium ${location.pathname === '/media' ? 'text-yellow-200' : ''}`}
               onClick={closeNav}
             >
-              Our Team
+              media
             </Link>
             <Link
               to="/spotlight"
               className={`block py-3 hover:text-yellow-1000 font-medium ${location.pathname === '/spotlight' ? 'text-yellow-200' : ''}`}
               onClick={closeNav}
             >
-              Spotlight
+              spotlight
             </Link>
             <Link
               to="/contact"
               className={`block py-3 hover:text-yellow-100 font-medium ${location.pathname === '/contact' ? 'text-yellow-200' : ''}`}
               onClick={closeNav}
             >
-              Contact
+              contact
+            </Link>
+            <Link
+              to="/our-team"
+              className={`block py-3 hover:text-yellow-100 font-medium ${location.pathname === '/our-team' ? 'text-yellow-200' : ''}`}
+              onClick={closeNav}
+            >
+              our team
             </Link>
           </div>
         )}
 
         {/* Navigation Menu for larger screens */}
-        <nav className="hidden md:flex md:space-x-6 ">
-          <Link
-            to="/"
-            className={`hover:text-yellow-100 font-semibold ${location.pathname === '/' ? 'text-yellow-200' : ''}`}
-          >
-            Home
-          </Link>
-          <Link
-            to="/media"
-            className={`hover:text-yellow-100 font-semibold ${location.pathname === '/media' ? 'text-yellow-200' : ''}`}
-          >
-            Media
-          </Link>
-          <Link
-            to="/events"
-            className={`hover:text-yellow-100 font-semibold ${location.pathname === '/events' ? 'text-yellow-200' : ''}`}
-          >
-            Events
-          </Link>
-          <Link
-            to="/our-team"
-            className={`hover:text-yellow-100 font-semibold ${location.pathname === '/our-team' ? 'text-yellow-200' : ''}`}
-          >
-            Our Team
-          </Link>
-          <Link
-            to="/spotlight"
-            className={`hover:text-yellow-100 font-semibold ${location.pathname === '/spotlight' ? 'text-yellow-200' : ''}`}
-          >
-            Spotlight
-          </Link>
-          <Link
-            to="/contact"
-            className={`hover:text-yellow-100 font-semibold ${location.pathname === '/contact' ? 'text-yellow-200' : ''}`}
-          >
-            Contact
-          </Link>
-        </nav>
+<nav className="hidden lg:flex lg:space-x-16 outfit-font">
+<Link
+  to="/events"
+  className={`hover:text-yellow-100 font-[380] outfit-font text-base ${location.pathname === '/events' ? 'text-yellow-200' : ''}`}
+>
+  events
+</Link>          
+<Link
+  to="/media"
+  className={`hover:text-yellow-100 font-[380] outfit-font text-base ${location.pathname === '/media' ? 'text-yellow-200' : ''}`}
+>
+  media
+</Link>
+<Link
+  to="/spotlight"
+  className={`hover:text-yellow-100 font-[380] outfit-font text-base ${location.pathname === '/spotlight' ? 'text-yellow-200' : ''}`}
+>
+  spotlight
+</Link>
+<Link
+  to="/contact"
+  className={`hover:text-yellow-100 font-[380] outfit-font text-base ${location.pathname === '/contact' ? 'text-yellow-200' : ''}`}
+>
+  contact
+</Link>
+<Link
+  to="/our-team"
+  className={`hover:text-yellow-100 font-[380] outfit-font text-base ${location.pathname === '/our-team' ? 'text-yellow-200' : ''}`}
+>
+  our team
+</Link>
+</nav>
+
       </div>
     </header>
   );
