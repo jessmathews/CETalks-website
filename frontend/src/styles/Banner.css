@@ -30,43 +30,141 @@
 }
 
 .margin-left-intro {
-  margin-left: 15rem; /* Adjust this value as needed */
+    margin-left: 15rem; /* Adjust this value as needed */
 }
-
+  
 .margin-top-intro {
-  margin-top: 8rem; /* Adjust this value as needed */
+    margin-top: 8rem; /* Adjust this value as needed */
 }
 
-.text-intro {
-  font-size: 3.13rem;
+.margin-right-intro {
+    margin-right: 10rem; /* Adjust this value as needed */
+}
+
+.text-font-size-intro {
+    font-size: 3.13rem;
+}
+
+.max-w-sec1 {
+    max-width: 100%;
 }
 
 @media (max-width: 1300px) {
-  .margin-left-intro {
-    margin-left: 12rem; /* Adjust this value as needed */
+    .margin-left-intro {
+      margin-left: 9rem; /* Adjust this value as needed */
+    }
+
+    .margin-top-intro {
+        margin-top: 7rem; /* Adjust this value as needed */
+    }
+
+    .margin-right-intro {
+        margin-right: 0rem; /* Adjust this value as needed */
+    }
+ 
+    .text-font-size-intro {
+        font-size: 3.1rem;
+    }
+  
+  }
+  
+  @media (max-width: 991px) {
+    .margin-left-intro {
+      margin-left: 9rem; /* Adjust this value as needed */
+    }
+
+    .margin-top-intro {
+        margin-top: 5rem; /* Adjust this value as needed */
+    }
+
+    .margin-right-intro {
+        margin-right: 6rem; /* Adjust this value as needed */
+    }
+
+    .text-font-size-intro {
+        font-size: 3.1rem;
+    }
+  
+  }
+  
+  @media (max-width: 786px) {
+    .margin-left-intro {
+      margin-left: 7rem; /* Adjust this value as needed */
+    }
+
+    .margin-top-intro {
+        margin-top: 2rem; /* Adjust this value as needed */
+    }
+
+    .margin-right-intro {
+        margin-right: 4rem; /* Adjust this value as needed */
+    }
+
+    .text-font-size-intro {
+        font-size: 3.1rem;
+    }
+  
   }
 
+  @media (max-width: 722px) {
+    .margin-left-intro {
+      margin-left: 7rem; /* Adjust this value as needed */
+    }
+
+    .margin-top-intro {
+        margin-top: 2rem; /* Adjust this value as needed */
+    }
+
+    .margin-right-intro {
+        margin-right: 4rem; /* Adjust this value as needed */
+    }
+
+    .text-font-size-intro {
+        font-size: 3.21rem;
+    }
+  
+  }
+  
+  @media (max-width: 568px) {
+    .margin-left-intro {
+      margin-left: 2.5rem; /* Adjust this value as needed */
+    }
+
+    .margin-top-intro {
+        margin-top: 1rem; /* Adjust this value as needed */
+    }
+
+    .margin-right-intro {
+        margin-right: 2rem; /* Adjust this value as needed */
+    }
+
+    .text-font-size-intro {
+        font-size: 2.3rem;
+    }
+
+    .max-w-sec1 {
+        max-width: 85%;
+
+    }
+  
+  }
+
+  @media (min-width: 1200px) {
+    .md\:block-image {
+        display: block;
+    }
 
 }
 
-@media (max-width: 991px) {
-  .margin-left-intro {
-    margin-left: 9rem; /* Adjust this value as needed */
-  }
-
-
+.logo-image-size {
+    height: 16rem;
+    width: auto;
 }
 
-@media (max-width: 750px) {
-  .margin-left-intro {
-    margin-left: 7rem; /* Adjust this value as needed */
-  }
+@media (man-width: 1200px) {
 
-}
-
-@media (max-width: 568px) {
-  .margin-left-intro {
-    margin-left: 3rem; /* Adjust this value as needed */
-  }
-
+    .logo-image-size {
+        height: 16rem;
+        width: auto;
+    }
 }

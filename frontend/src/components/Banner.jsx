@@ -13,21 +13,15 @@ const ButtonLink = ({ to, children, className }) => (
 const Banner = () => {
   return (
     <div className="bg-07060e margin-left-intro margin-top-intro mr-40">
-      <section className="w-full self-stretch flex flex-row items-end justify-between gap-[1.25rem] max-w-full text-left text-[3.13rem] text-white outfit-font">
-        <h1 className="m-0 w-[38.44rem] relative text-inherit font-bold font-outfit inline-block shrink-0 min-w-[38.44rem] max-w-full mq750:min-w-full mq450:text-[1.88rem] mq1025:text-[2.5rem] mq1025:flex-1 leading-intro-heading">
-          CETALKS, the official campus radio of College Of Engineering Trivandrum
-        </h1>
-        <div className="w-[17.81rem] flex flex-col items-start justify-start pt-[0rem] px-[0rem] pb-[1.44rem] box-border min-w-[17.81rem] text-black font-poppins mq1025:flex-1">
-          <div className="self-stretch flex flex-row items-start justify-start relative">
-            <img
-              className="h-[17.31rem] w-[26.94rem] absolute my-0 mx-[!important] top-[-12.06rem] left-[-10.25rem] object-cover z-[1]"
-              loading="eager"
-              alt=""
-              src={cetalkslogo}
-            />
-          </div>
-        </div>
-      </section>
+    <section className="w-full flex flex-row items-end justify-between gap-[1.25rem] max-w-full min-w-[380px] text-left text-white outfit-font">
+      <h1 className="w-[38.44rem] relative text-inherit font-bold font-outfit inline-block shrink-0 min-w-[20.44rem] max-w-sec1 leading-intro-heading text-font-size-intro">
+        CETALKS, the official campus radio of College Of Engineering Trivandrum
+      </h1>
+
+      <div className="hidden xl:block"> {/* Show only for screen widths larger than 1100px */}
+        <img src={cetalkslogo} alt="CETalks Logo" className="logo-image-size" />
+      </div>
+    </section>
       <section className="w-[61rem] flex flex-col items-start justify-start gap-[5.88rem] max-w-full text-left text-[1rem] text-white outfit-font flex-wrap mt-10">
         <div className="flex flex-row items-start justify-start gap-[0.94rem] max-w-full mq450:flex-wrap">
           <ButtonLink
