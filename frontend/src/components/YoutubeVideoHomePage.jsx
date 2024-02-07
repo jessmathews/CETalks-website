@@ -10,7 +10,7 @@ const YoutubeVideoHomePage = () => {
 
   return (
     <div className="text-center mt-1">
-      <h2 className="text-[1rem] font-inherit mt-8 text-white outfit-font mq750:gap-[5.88rem] mq1025:gap-[5.88rem] mb-7">featured video</h2>
+      <h2 className="text-[1.303rem] font-inherit mt-8 text-white outfit-font mq750:gap-[5.88rem] mq1025:gap-[5.88rem] mb-7">featured video</h2>
 
       {latestRelease && (
         <div className="mx-auto mt-2 p-4 max-w-yif">

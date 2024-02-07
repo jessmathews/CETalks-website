@@ -5,6 +5,8 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Spotify from '../components/SpotifyHomePage';
 import Youtube from '../components/YoutubeVideoHomePage';
+import UpcomingEvents from '../components/Upcomingevents';
+import Testimonials from '../components/Testimonials';
 
 const Home = () => {
   return (
@@ -15,7 +17,10 @@ const Home = () => {
         <Banner />
         <Spotify />
         <Youtube />
+        <UpcomingEvents />
+        <Testimonials />
         <Footer />
+        
       </div>
       
     </div>
