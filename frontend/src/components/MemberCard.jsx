@@ -13,12 +13,12 @@ const MemberCard = ({ name, position, image, instagram, linkedin }) => {
         <div className="overlay opacity-0 group-hover:opacity-100 absolute top-0 left-0 w-full h-full flex justify-center items-center">
           <div className="social-icons mt-2 flex">
             {instagram && (
-              <a href={instagram} className="text-red-600 mx-1">
+              <a href={instagram} className="text-red-600 mx-3">
                 <BsInstagram />
               </a>
             )}
             {linkedin && (
-              <a href={linkedin} className="text-red-600 mx-1">
+              <a href={linkedin} className="text-red-600 mx-3">
                 <BsLinkedin />
               </a>
             )}
