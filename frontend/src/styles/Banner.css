@@ -49,6 +49,10 @@
     max-width: 100%;
 }
 
+.banner-button-size {
+  width: 10.31rem;
+}
+
 @media (max-width: 1300px) {
     .margin-left-intro {
       margin-left: 9rem; /* Adjust this value as needed */
@@ -103,6 +107,10 @@
     .text-font-size-intro {
         font-size: 3.1rem;
     }
+
+    .banner-button-size {
+        width: 5rem;
+    }
   
   }
 
@@ -122,6 +130,10 @@
     .text-font-size-intro {
         font-size: 3.21rem;
     }
+
+    .banner-button-size {
+      width: 5rem;
+  }
   
   }
   
