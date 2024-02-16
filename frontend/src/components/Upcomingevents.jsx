@@ -50,13 +50,13 @@ const Upcomingevents = () => {
     nextArrow: <CustomNextArrow />,
     responsive: [
       {
-        breakpoint: 768, // Adjust the breakpoint as needed
+        breakpoint: 950, // Adjust the breakpoint as needed
         settings: {
           slidesToShow: 2,
         },
       },
       {
-        breakpoint: 480, // Adjust the breakpoint as needed
+        breakpoint: 600, // Adjust the breakpoint as needed
         settings: {
           slidesToShow: 1,
         },
