@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <header className="bg-07060e text-white p-6 fixed w-full top-0 z-50">
-    <div className="container mx-auto pr-8 flex justify-between items-center">
+    <div className="container mx-auto pr-1 lg:pr-8  flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <img src="/images/cetalks-logo.png" alt="CETalks Logo" className="w-12 h-12" />
