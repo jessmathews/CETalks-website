@@ -156,8 +156,12 @@
 
     .max-w-sec1 {
         max-width: 85%;
-
     }
+
+    
+  .leading-intro-heading {
+    line-height: 2.5rem;
+}
   
   }
 
