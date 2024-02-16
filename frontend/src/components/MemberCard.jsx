@@ -7,7 +7,7 @@ const MemberCard = ({ name, position, image, instagram, linkedin }) => {
       <div className="member-img flex flex-col items-center relative group">
         <img
           src={image}
-          className="h-48 w-48 object-cover rounded-full border-white border-2 mb-2"
+          className="h-32 md:h-48 w-32 md:w-48 object-cover rounded-full border-white border-2 mb-2"
           alt={`${name}'s Profile`}
         />
         <div className="overlay opacity-0 group-hover:opacity-100 absolute top-0 left-0 w-full h-full flex justify-center items-center">
