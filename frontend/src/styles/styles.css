@@ -97,4 +97,7 @@ nav a {
   .max-w-sif {
     max-width: 90vw; /* Adjust the percentage as needed */
   }
+  .max-w-yif {
+    max-width: 90vw; /* Adjust the percentage as needed */
+  }
 }
