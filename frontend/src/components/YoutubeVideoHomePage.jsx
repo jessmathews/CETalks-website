@@ -15,8 +15,6 @@ const YoutubeVideoHomePage = () => {
       {latestRelease && (
         <div className="mx-auto mt-2 p-4 max-w-yif">
           {/* Embed YouTube video using iframe */}
-<<<<<<< HEAD
-
           <iframe
           width="100%" 
           height="400px" 
@@ -26,17 +24,6 @@ const YoutubeVideoHomePage = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
           allowfullscreen
           className="responsive-ytiframe-homepage "></iframe>
-=======
-          <iframe
-          width="100%" 
-          height="480" 
-          src={latestRelease.youtubeLink}
-          title={latestRelease.title} 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          allowfullscreen
-          className="responsive-ytiframe-homepage"></iframe>
->>>>>>> 331390607fb76717c9dd1bc399001a420e73fd2a
         </div>
       )}
     </div>
