@@ -25,7 +25,7 @@ const ContactSection = () => {
                       name="fullName"
                       id="fullName"
                       required=""
-                      className="input-field"
+                      className="input-field ml-4"
                     />
                   </div>
                   <div>
@@ -35,7 +35,7 @@ const ContactSection = () => {
                       placeholder="Your Email"
                       id="email"
                       required=""
-                      className="input-field"
+                      className="input-field ml-4"
                     />
                   </div>
                 </div>
@@ -45,16 +45,16 @@ const ContactSection = () => {
                   name="phoneNumber"
                   id="phoneNumber"
                   required=""
-                  className="input-field my-4"
+                  className="input-field my-4 ml-4"
                 />
                 <textarea
                   placeholder="Your Message"
                   name="message"
                   id="message"
                   required=""
-                  className="input-field"
+                  className="input-field ml-4"
                 ></textarea>
-                <div className="text-right mt-4">
+                <div className="flex justify-center md:justify-end mt-4">
                   <button type="submit" className="btn btn-primary px-6 py-3">
                     Send Now
                   </button>
