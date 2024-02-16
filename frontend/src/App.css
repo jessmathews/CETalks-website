@@ -41,5 +41,6 @@
   color: #888;
 }
 
-
-
+.with-bg-image {
+  background-image: url('assets/img/general/patch.png'); /* Replace with the path to your image */
+}

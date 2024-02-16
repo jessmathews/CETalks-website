@@ -42,13 +42,28 @@ const Upcomingevents = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000, // 5 seconds
     prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />,
+    responsive: [
+      {
+        breakpoint: 768, // Adjust the breakpoint as needed
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 480, // Adjust the breakpoint as needed
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
+
 
   return (
     <div className="text-center mt-10" style={{ overflow: 'hidden' }}>
@@ -61,7 +76,7 @@ const Upcomingevents = () => {
               src={event.imageUrl}
               alt={`Event ${index + 1}`}
               className="mx-auto mb-4 rounded-md max-h-[28rem]" // Adjust max height as needed
-              style={{ maxWidth: '90%', height: 'auto' }} // Make images responsive
+              style={{ maxWidth: '100%', height: '300px' }} // Make images responsive
             />
 
             <p className="text-gray-500 mb-2">{event.date}</p>

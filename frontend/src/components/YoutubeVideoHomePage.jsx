@@ -17,13 +17,13 @@ const YoutubeVideoHomePage = () => {
           {/* Embed YouTube video using iframe */}
           <iframe
           width="100%" 
-          height="480" 
+          height="400px" 
           src={latestRelease.youtubeLink}
           title={latestRelease.title} 
-          frameborder="0" 
+          frameBorder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
           allowfullscreen
-          className="responsive-ytiframe-homepage"></iframe>
+          className="responsive-ytiframe-homepage "></iframe>
         </div>
       )}
     </div>

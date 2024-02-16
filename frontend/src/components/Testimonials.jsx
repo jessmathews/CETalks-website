@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Slider from 'react-slick';
 import '../styles/Testimonials.css';
 
@@ -21,7 +21,7 @@ const Testimonials = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 4000, // 4 seconds
@@ -48,7 +48,7 @@ const Testimonials = () => {
           key={index}
           src={winner}
           alt={`Winner ${index + 1}`}
-          className="winner-image max-h-[26rem] mx-auto object-contain m-[1rem]"
+          className="winner-image max-h-[15rem] mx-auto object-contain m-[1rem]"
         />
       ))}
     </Slider>
