@@ -1,5 +1,6 @@
 import React from 'react';
 import spotify2 from '../assets/img/social-icons/spotify@2x.png';
+import '../styles/styles.css';
 
 const SpotifyHomePage = () => {
   const latestRelease = {

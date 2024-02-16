@@ -92,3 +92,9 @@ nav a {
     max-width: 70vw; /* Adjust the percentage as needed */
   }
 }
+
+@media (max-width: 500px) {
+  .max-w-sif {
+    max-width: 90vw; /* Adjust the percentage as needed */
+  }
+}
