@@ -20,10 +20,11 @@ const Testimonials = () => {
   const settings = {
     dots: true,
     infinite: true,
+    speed:2000,
     autoplay: true,
     slidesToShow: 2, 
     slidesToScroll: 1,
-    autoplaySpeed: 3000, // 4 seconds
+    autoplaySpeed: 4000, // 4 seconds
   };
 
   return (
