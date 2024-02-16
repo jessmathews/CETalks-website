@@ -14,7 +14,7 @@ const Banner = () => {
   return (
     <div className="bg-07060e p-8 md:p-12 lg:p-16 overflow-hidden">
     <section className="w-full flex flex-col md:flex-row items-center md:items-end justify-between gap-4 md:gap-8 max-w-full min-w-[280px] text-center md:text-left text-white outfit-font">
-      <h1 className="w-full md:w-[38.44rem] relative text-inherit font-bold font-outfit inline-block shrink-0 min-w-[20.44rem] max-w-sec1 leading-intro-heading text-font-size-intro mb-4 md:mb-0">
+      <h1 className="w-full md:w-[38.44rem] relative text-inherit font-bold font-outfit inline-block shrink-0 min-w-[20.44rem] max-w-sec1 leading-intro-heading text-font-size-intro mb-4 md:mb-0 text-left">
         CETALKS, the official campus radio of College Of Engineering Trivandrum
       </h1>
 
