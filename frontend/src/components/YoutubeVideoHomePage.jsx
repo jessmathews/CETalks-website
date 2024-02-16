@@ -13,21 +13,17 @@ const YoutubeVideoHomePage = () => {
       <h2 className="text-[1.303rem] font-inherit mt-8 text-white outfit-font mq750:gap-[5.88rem] mq1025:gap-[5.88rem] mb-7">featured video</h2>
 
       {latestRelease && (
-        <div className="mx-auto mt-2 p-4 max-w-yif" style={{ backgroundColor: 'rgba(205, 115, 80)', borderRadius: '10px', overflow: 'hidden' }}>
+        <div className="mx-auto mt-2 p-4 max-w-yif">
           {/* Embed YouTube video using iframe */}
-          <div style={{ position: 'relative', overflow: 'hidden', paddingBottom: '56.25%' }}>
-            <iframe
-              width="100%"
-              height="100%"
-              src={latestRelease.youtubeLink}
-              title={latestRelease.title}
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-              className="responsive-ytiframe-homepage"
-              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
-            ></iframe>
-          </div>
+          <iframe
+          width="100%" 
+          height="480" 
+          src={latestRelease.youtubeLink}
+          title={latestRelease.title} 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen
+          className="responsive-ytiframe-homepage"></iframe>
         </div>
       )}
     </div>
