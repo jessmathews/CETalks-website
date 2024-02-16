@@ -34,7 +34,7 @@ const Teammember = () => {
 
           {/* Team Member 3 */}
           <MemberCard
-            name="Yet Another Member"
+            name="Another Member"
             position="Chief RJ"
             image={teamMemberImage1}
             instagram="#"
@@ -43,7 +43,7 @@ const Teammember = () => {
 
           {/* Team Member 4 */}
           <MemberCard
-            name="Yet Another Member"
+            name="Another Member"
             position="General Secretary"
             image={teamMemberImage1}
             instagram="#"
@@ -70,7 +70,7 @@ const Teammember = () => {
 
           {/* Team Member 7 */}
           <MemberCard
-            name="Yet Another Member"
+            name="Another Member"
             position="Design Head"
             image={teamMemberImage1}
             instagram="#"
@@ -79,7 +79,7 @@ const Teammember = () => {
 
           {/* Team Member 8 */}
           <MemberCard
-            name="Yet Another Member"
+            name="Another Member"
             position="Design Head"
             image={teamMemberImage1}
             instagram="#"
@@ -106,7 +106,7 @@ const Teammember = () => {
 
           {/* Team Member 11 */}
           <MemberCard
-            name="Yet Another Member"
+            name="Another Member"
             position="Technical Head"
             image={teamMemberImage1}
             instagram="#"
@@ -115,7 +115,7 @@ const Teammember = () => {
 
           {/* Team Member 12 */}
           <MemberCard
-            name="Yet Another Member"
+            name="Another Member"
             position="Technical Head"
             image={teamMemberImage1}
             instagram="#"
@@ -146,7 +146,7 @@ const Teammember = () => {
           <div className="col-span-2 lg:col-span-1 mx-auto">
           {/* Team Member 15 */}
           <MemberCard
-            name="Yet Another Member"
+            name="Another Member"
             position="Social Media Manager"
             image={teamMemberImage1}
             instagram="#"
