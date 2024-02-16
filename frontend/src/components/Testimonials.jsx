@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Slider from 'react-slick';
 import '../styles/Testimonials.css';
 
@@ -20,11 +20,19 @@ const Testimonials = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed:2000,
-    autoplay: true,
-    slidesToShow: 2, 
+    slidesToShow: 2,
     slidesToScroll: 1,
+    speed: 2000,
+    autoplay: true,
     autoplaySpeed: 4000, // 4 seconds
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   return (
@@ -43,15 +51,15 @@ const Testimonials = () => {
       </div>
 
       <Slider {...settings} className="carousel">
-      {winners.map((winner, index) => (
-        <img
-          key={index}
-          src={winner}
-          alt={`Winner ${index + 1}`}
-          className="winner-image max-h-[15rem] mx-auto object-contain m-[1rem]"
-        />
-      ))}
-    </Slider>
+        {winners.map((winner, index) => (
+          <img
+            key={index}
+            src={winner}
+            alt={`Winner ${index + 1}`}
+            className="winner-image max-h-[15rem] mx-auto object-contain m-[1rem]"
+          />
+        ))}
+      </Slider>
     </div>
   );
 };
