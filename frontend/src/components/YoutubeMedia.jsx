@@ -59,8 +59,8 @@ const YoutubeMedia = () => {
     <section className="max-w-full px-4 sm:px-6 lg:px-8 py-8 sm:py-12"> 
     <div className="max-w-5xl mx-auto relative">
     <div className="mb-4 text-white outfit-font">
-        <div className="text-[1.3rem] md:text-[1.7rem] lg:text-[2rem] leading-5">Our</div> 
-        <div className="text-[2rem] md:text-[2.5rem] lg:text-[3rem]">Podcasts</div>
+        <div className="text-[1.3rem] md:text-[1.7rem] lg:text-[2rem] leading-5">Latest</div> 
+        <div className="text-[2rem] md:text-[2.5rem] lg:text-[3rem]">Videos</div>
         <button
             onClick={() => window.location.href = "https://www.youtube.com/@CETALKS"}
             className="rounded-md text-white text-sm md:text-base lg:text-lg font-semibold absolute top-0 right-0 mt-2 mr-4 px-4 py-2 transition duration-300 ease-in-out hover:bg-white hover:text-black focus:outline-none"
