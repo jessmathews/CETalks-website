@@ -68,7 +68,7 @@ const Header = () => {
 
         {/* Full-width Dropdown Menu for smaller screens */}
         {isNavOpen && (
-          <div className="lg:hidden w-full absolute top-20 left-0 bg-black text-white text-center outfit-font">
+          <div className="lg:hidden w-full absolute top-20 left-0 bg-black text-white text-center outfit-font text-[1.2rem]">
             <Link
               to="/"
               className={`block py-3 hover:text-yellow-100 font-medium ${location.pathname === '/' ? 'text-yellow-200' : ''}`}

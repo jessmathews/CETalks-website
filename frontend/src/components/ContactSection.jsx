@@ -14,10 +14,10 @@ const ContactSection = () => {
             </h5>
             <h3 className="main-title text-[3.2rem] text-white outfit-font font-[500]">Contact Us</h3>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-6">
             <div className="col-md-8 contact-form">
               <form action="https://sendmail.w3layouts.com/submitForm" method="post" className="main-input">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-6">
                   <div>
                     <input
                       type="text"
@@ -45,7 +45,7 @@ const ContactSection = () => {
                   name="phoneNumber"
                   id="phoneNumber"
                   required=""
-                  className="input-field my-4 ml-4"
+                  className="input-field mt-1 lg:mt-2 mb-5 lg:mb-6 ml-4"
                 />
                 <textarea
                   placeholder="Your Message"
