@@ -106,3 +106,18 @@ nav a {
     max-width: 90vw; /* Adjust the percentage as needed */
   }
 }
+
+
+.ytm-video-container {
+  height: 150px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: yellow;
+  border-width: 0.25px;
+}
+
+.ytm-title-container {
+  text-align: left;
+  margin-top: 10px; /* Adjust the margin as needed */
+}
