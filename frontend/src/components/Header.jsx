@@ -74,42 +74,42 @@ const Header = () => {
               className={`block py-3 hover:text-yellow-100 font-medium ${location.pathname === '/' ? 'text-yellow-200' : ''}`}
               onClick={closeNav}
             >
-              home
+              Home
             </Link>
             <Link
               to="/events"
               className={`block py-3 hover:text-yellow-100 font-medium ${location.pathname === '/events' ? 'text-yellow-200' : ''}`}
               onClick={closeNav}
             >
-              events
+              Events
             </Link>
             <Link
               to="/media"
               className={`block py-3 hover:text-yellow-100 font-medium ${location.pathname === '/media' ? 'text-yellow-200' : ''}`}
               onClick={closeNav}
             >
-              media
+              Media
             </Link>
             <Link
               to="/spotlight"
               className={`block py-3 hover:text-yellow-1000 font-medium ${location.pathname === '/spotlight' ? 'text-yellow-200' : ''}`}
               onClick={closeNav}
             >
-              spotlight
+              Spotlight
             </Link>
             <Link
               to="/contact"
               className={`block py-3 hover:text-yellow-100 font-medium ${location.pathname === '/contact' ? 'text-yellow-200' : ''}`}
               onClick={closeNav}
             >
-              contact
+              Contact
             </Link>
             <Link
               to="/our-team"
               className={`block py-3 hover:text-yellow-100 font-medium ${location.pathname === '/our-team' ? 'text-yellow-200' : ''}`}
               onClick={closeNav}
             >
-              our team
+              Our team
             </Link>
           </div>
         )}
@@ -120,31 +120,31 @@ const Header = () => {
   to="/events"
   className={`hover:text-yellow-100 font-[380] outfit-font text-base ${location.pathname === '/events' ? 'text-yellow-200' : ''}`}
 >
-  events
+  Events
 </Link>          
 <Link
   to="/media"
   className={`hover:text-yellow-100 font-[380] outfit-font text-base ${location.pathname === '/media' ? 'text-yellow-200' : ''}`}
 >
-  media
+  Media
 </Link>
 <Link
   to="/spotlight"
   className={`hover:text-yellow-100 font-[380] outfit-font text-base ${location.pathname === '/spotlight' ? 'text-yellow-200' : ''}`}
 >
-  spotlight
+  Spotlight
 </Link>
 <Link
   to="/contact"
   className={`hover:text-yellow-100 font-[380] outfit-font text-base ${location.pathname === '/contact' ? 'text-yellow-200' : ''}`}
 >
-  contact
+  Contact
 </Link>
 <Link
   to="/our-team"
   className={`hover:text-yellow-100 font-[380] outfit-font text-base ${location.pathname === '/our-team' ? 'text-yellow-200' : ''}`}
 >
-  our team
+  Our team
 </Link>
 </nav>
 
