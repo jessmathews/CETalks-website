@@ -117,6 +117,12 @@ nav a {
   border-width: 0.25px;
 }
 
+@media (max-width: 500px) {
+  .ytm-video-container {
+    height: 100px; /* Adjust the height as needed */
+  }
+}
+
 .ytm-title-container {
   text-align: left;
   margin-top: 10px; /* Adjust the margin as needed */
