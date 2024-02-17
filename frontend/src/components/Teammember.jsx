@@ -12,7 +12,7 @@ const Teammember = () => {
         <h2 className="text-4xl xl:text-[3rem] font-normal mb-7 lg:mb-12 text-white outfit-font">EXECOM 2023-24</h2>
         <p className="text-white"></p>
       </div>
-      <div className="container mx-auto mt-8">
+      <div className="container mx-auto mt-8 albert-font">
         <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-8">
           {/* Team Member 1 */}
           <MemberCard
@@ -157,6 +157,399 @@ const Teammember = () => {
 
       </div>
 
+      <div className="container mx-auto text-center">
+        <h2 className="text-4xl xl:text-[3rem] font-normal mb-7 lg:mb-12 text-white outfit-font mt-20">RJs</h2>
+        <p className="text-white"></p>
+      </div>
+      <div className="container mx-auto mt-8 albert-font">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-8">
+          {/* Team Member 1 */}
+          <MemberCard
+            name="Harry Potter"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Team Member 2 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Team Member 3 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Team Member 4 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Add more Team Members as needed */}
+        </div>
+
+        <div className="grid grid-cols-2 lg:grid-cols-3 mt-7 lg:mt-10 lg:ml-10 lg:mr-10 xl:ml-40 xl:mr-40">
+        
+          {/* Team Member 13 */}
+          <MemberCard
+            name="Harry Potter"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Team Member 14 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+          <div className="col-span-2 lg:col-span-1 mx-auto">
+          {/* Team Member 15 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+        </div>
+        </div>
+
+      </div>
+
+
+      <div className="container mx-auto text-center">
+        <h2 className="text-4xl xl:text-[3rem] font-normal mb-7 lg:mb-12 text-white outfit-font mt-20">Program Team</h2>
+        <p className="text-white"></p>
+      </div>
+      <div className="container mx-auto mt-8 albert-font">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-8">
+          {/* Team Member 1 */}
+          <MemberCard
+            name="Harry Potter"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Team Member 2 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Team Member 3 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Team Member 4 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Add more Team Members as needed */}
+        </div>
+
+        <div className="grid grid-cols-2 lg:grid-cols-3 mt-7 lg:mt-10 lg:ml-10 lg:mr-10 xl:ml-40 xl:mr-40">
+        
+          {/* Team Member 13 */}
+          <MemberCard
+            name="Harry Potter"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Team Member 14 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+          <div className="col-span-2 lg:col-span-1 mx-auto">
+          {/* Team Member 15 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+        </div>
+        </div>
+
+      </div>
+
+
+      <div className="container mx-auto text-center">
+        <h2 className="text-4xl xl:text-[3rem] font-normal mb-7 lg:mb-12 text-white outfit-font mt-20">Media Team</h2>
+        <p className="text-white"></p>
+      </div>
+      <div className="container mx-auto mt-8 albert-font">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-8">
+          {/* Team Member 1 */}
+          <MemberCard
+            name="Harry Potter"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Team Member 2 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Team Member 3 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Team Member 4 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Add more Team Members as needed */}
+        </div>
+
+        <div className="grid grid-cols-2 lg:grid-cols-3 mt-7 lg:mt-10 lg:ml-10 lg:mr-10 xl:ml-40 xl:mr-40">
+        
+          {/* Team Member 13 */}
+          <MemberCard
+            name="Harry Potter"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Team Member 14 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+          <div className="col-span-2 lg:col-span-1 mx-auto">
+          {/* Team Member 15 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+        </div>
+        </div>
+
+      </div>
+
+
+      <div className="container mx-auto text-center">
+        <h2 className="text-4xl xl:text-[3rem] font-normal mb-7 lg:mb-12 text-white outfit-font mt-20">Design Team</h2>
+        <p className="text-white"></p>
+      </div>
+      <div className="container mx-auto mt-8 albert-font">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-8">
+          {/* Team Member 1 */}
+          <MemberCard
+            name="Harry Potter"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Team Member 2 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Team Member 3 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Team Member 4 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Add more Team Members as needed */}
+        </div>
+
+        <div className="grid grid-cols-2 lg:grid-cols-3 mt-7 lg:mt-10 lg:ml-10 lg:mr-10 xl:ml-40 xl:mr-40">
+        
+          {/* Team Member 13 */}
+          <MemberCard
+            name="Harry Potter"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Team Member 14 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+          <div className="col-span-2 lg:col-span-1 mx-auto">
+          {/* Team Member 15 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+        </div>
+        </div>
+
+      </div>
+
+
+      <div className="container mx-auto text-center">
+        <h2 className="text-4xl xl:text-[3rem] font-normal mb-7 lg:mb-12 text-white outfit-font mt-20">Tech Team</h2>
+        <p className="text-white"></p>
+      </div>
+      <div className="container mx-auto mt-8 albert-font">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-8">
+          {/* Team Member 1 */}
+          <MemberCard
+            name="Harry Potter"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Team Member 2 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Team Member 3 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Team Member 4 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Add more Team Members as needed */}
+        </div>
+
+        <div className="grid grid-cols-2 lg:grid-cols-3 mt-7 lg:mt-10 lg:ml-10 lg:mr-10 xl:ml-40 xl:mr-40">
+        
+          {/* Team Member 13 */}
+          <MemberCard
+            name="Harry Potter"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+
+          {/* Team Member 14 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+          <div className="col-span-2 lg:col-span-1 mx-auto">
+          {/* Team Member 15 */}
+          <MemberCard
+            name="Another Member"
+            position=""
+            image={teamMemberImage1}
+            instagram="#"
+            linkedin="#"
+          />
+        </div>
+        </div>
+
+      </div>
 
     </section>
   );
