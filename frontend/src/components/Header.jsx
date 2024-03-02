@@ -21,11 +21,10 @@ const Header = () => {
 
   return (
     <header className="bg-07060e text-white p-6 fixed w-full top-0 z-50">
-    <div className="container mx-auto pr-1 lg:pr-8  flex justify-between items-center">
+    <div className="container mx-auto pr-1 lg:pr-8  flex justify-between items-center top-70 left-509">
         {/* Logo */}
         <Link to="/" className="flex items-center">
-          <img src="/images/cetalks-logo.png" alt="CETalks Logo" className="w-12 h-12" />
-          <span className="ml-3 text-2xl font-semibold cetalks-font tracking-[0.8rem]">CETALKS</span>
+          <img src="/images/cetalks-logo.png" alt="CETalks Logo" className="w-12 h-12 top-32 left-71" />
         </Link>
 
         {/* Hamburger Menu for smaller screens */}
@@ -109,7 +108,7 @@ const Header = () => {
               className={`block py-3 hover:text-yellow-100 font-medium ${location.pathname === '/our-team' ? 'text-yellow-200' : ''}`}
               onClick={closeNav}
             >
-              Our team
+              Our Team
             </Link>
           </div>
         )}
