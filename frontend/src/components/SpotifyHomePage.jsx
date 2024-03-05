@@ -6,12 +6,12 @@ const SpotifyHomePage = () => {
   const latestRelease = {
     title: 'Latest Release Title',
     releaseDate: 'Release Date',
-    spotifyLink: 'https://open.spotify.com/embed/episode/2npayuoKczPJUc604fL1zs?utm_source=generator&t=0', // Replace with the actual Spotify link
+    spotifyLink: 'https://open.spotify.com/embed/episode/2m0BbuBf8tFu1NuiPyKoD7?utm_source=generator&t=0', // Replace with the actual Spotify link
   };
 
   return (
     <div className="text-center">
-      <h2 className="text-[1.303rem] font-inherit mt-8 text-white outfit-font mq750:gap-[5.88rem] mq1025:gap-[5.88rem] mb-7">latest  on  <img src={spotify2} alt="Spotify Icon" className="inline-block h-[1.13rem] w-[1.13rem]" /></h2>
+      <h2 className="text-[1.303rem] font-inherit mt-8 text-white outfit-font mq750:gap-[5.88rem] mq1025:gap-[5.88rem] mb-7">Latest  on  <img src={spotify2} alt="Spotify Icon" className="inline-block h-[1.13rem] w-[1.13rem]" /></h2>
 
       {latestRelease && (
         <div className="mx-auto mt-4 p-4 max-w-sif">

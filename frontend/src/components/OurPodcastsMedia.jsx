@@ -77,7 +77,7 @@ const OurPodcastsMedia = () => {
     <div className="max-w-5xl mx-auto relative">
     <div className="mb-4 text-white outfit-font">
         <div className="text-[1.3rem] md:text-[1.7rem] lg:text-[2rem] leading-5">Our</div> 
-        <div className="text-[2rem] md:text-[2.5rem] lg:text-[3rem]">Podcasts</div>
+        <div className="text-[2rem] md:text-[2.5rem] lg:text-[3rem] bg-gradient-to-r from-[#E8E034] to-[#C83134] bg-clip-text text-transparent inline-block">Podcasts</div>
         <button
             onClick={() => window.location.href = "https://open.spotify.com/show/5AGpr7Sd0kjciMAFxSuC0y"}
             className="rounded-md text-white text-sm md:text-base lg:text-lg font-semibold absolute top-0 right-0 mt-2 mr-4 px-4 py-2 transition duration-300 ease-in-out hover:bg-white hover:text-black focus:outline-none"

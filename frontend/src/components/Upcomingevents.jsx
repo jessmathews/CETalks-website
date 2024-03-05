@@ -67,7 +67,7 @@ const Upcomingevents = () => {
 
   return (
     <div className="text-center  sm:mt-1 lg:mt-10" style={{ overflow: 'hidden' }}>
-      <h2 className="text-[1.303rem] font-inherit mt-8 text-white outfit-font mb-7">upcoming events</h2>
+      <h2 className="text-[1.303rem] font-inherit mt-8 text-white outfit-font mb-7">Upcoming Events</h2>
 
       <Slider {...settings}>
         {eventsData.map((event, index) => (

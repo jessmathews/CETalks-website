@@ -40,11 +40,11 @@ const Testimonials = () => {
       <div className="self-stretch flex flex-col items-center justify-start gap-[0.56rem]">
         <div className="self-stretch flex flex-col items-center justify-start gap-[1.75rem]">
           <div className="flex flex-col items-center justify-start gap-[0.56rem]">
-            <h3 className="m-0 relative text-inherit uppercase font-normal outfit-font text-white">
+            <h3 className="m-0 relative text-inherit font-normal outfit-font text-white uppercase">
               testimonials
             </h3>
-            <h1 className="m-0 h-[1.88rem] relative text-[1.8rem] font-normal outfit-font text-center inline-block mq450:text-[1.19rem] text-white mb-8">
-              RJ Hunt Winners
+            <h1 className="m-0 h-[1.88rem] relative text-[2.3rem] font-normal outfit-font text-center inline-block mq450:text-[1.19rem] text-white mb-8">
+              <h1 className="bg-gradient-to-r from-[#E8E034] to-[#DFA435] bg-clip-text text-transparent inline-block">RJ Hunt</h1> Winners
             </h1>
           </div>
         </div>

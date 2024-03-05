@@ -13,10 +13,12 @@ const ButtonLink = ({ to, children, className }) => (
 const Banner = () => {
   return (
     <div className="bg-07060e p-8 md:p-12 lg:p-16 overflow-hidden">
-    <section className="w-full flex flex-col md:flex-row items-center md:items-end justify-between gap-4 md:gap-8 max-w-full min-w-[280px] text-center md:text-left text-white outfit-font">
-      <h1 className="w-full md:w-[38.44rem] relative text-inherit font-bold font-outfit inline-block shrink-0 min-w-[20.44rem] max-w-sec1 leading-intro-heading text-font-size-intro mb-4 md:mb-0 text-left">
-        CETALKS, the official campus radio of College Of Engineering Trivandrum
-      </h1>
+    <section className="w-full flex flex-col md:flex-row items-center md:items-end justify-between gap-4 md:gap-8 max-w-full min-w-[280px] text-center md:text-left text-white ">
+      <div className="w-full md:w-[38.44rem] text-inherit relative inline-block shrink-0 min-w-[20.44rem] max-w-sec1 leading-intro-heading text-font-size-intro mb-4 md:mb-0 text-left">
+        <h1 className="text-5xl py-1 bg-gradient-to-r from-[#E8E034] to-[#C83134] bg-clip-text text-transparent inline-block font-semibold">CETALKS</h1>
+        <h1 className="text-2xl py-1">the official campus radio of</h1>
+        <h1 className="text-5xl py-1">College Of Engineering Trivandrum</h1>
+      </div>
 
         <div className="hidden xl:block">
           <img src={cetalkslogo} alt="CETalks Logo" className="logo-image-size" />
