@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        gold: "#e8e034",
+      },
       backgroundColor: {
         '07060e': '#07060e',
       },
