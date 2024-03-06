@@ -6,12 +6,12 @@ import Pastyears from '../components/Spotlightinfo';
 import Footer from '../components/Footer';
 
 const Spotlight = () => {
-  // Your Events component logic
+  // Your Spotlight component logic
   return (
     <div>
     <Header />
     <div className="flex-1 bg-07060e">
-      {/* Events page content */}
+      {/* Spotlight page content */}
       <Pastyears />
       <Footer />
       </div>
