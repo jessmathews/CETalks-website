@@ -28,7 +28,7 @@ const SpotlightInfo = () => {
       </section>
 
 
-      <section className="w-screen flex flex-row flex-wrap pt-[0rem] px-[0rem] pb-[0.313rem] box-border max-w-full text-center text-4xl text-gold space-x-10 justify-center" >
+      <section className="w-screen flex flex-row flex-wrap pt-[0rem] px-[0rem] pb-[0.313rem] box-border max-w-full text-center text-4xl text-gold  justify-center" >
         <div className="flex justify-center w-1/3 min-w-[290px]"><img
           className=" w-1/3 min-w-[290px]"
           loading="lazy"
@@ -46,10 +46,9 @@ const SpotlightInfo = () => {
         </div>
 
       </section>
-      <section className="w-screen flex flex-row flex-wrap pt-[0rem] px-[0rem] pb-[0.313rem] box-border max-w-full text-center text-4xl text-gold space-x-10 justify-center" >
-        <div className="flex flex-col items-center justify-center w-[33rem] mr-2 min-width-[350px]">
-          <div className="flex flex-col max-w-[50%]">
-            <div className=" relative tracking-[0.05em] font-medium inline-block text-3xl">
+      <section className="w-screen flex flex-row flex-wrap pt-[0rem] px-[0rem] pb-[0.313rem] box-border max-w-full text-center text-4xl text-gold  justify-center" >
+            <div className="flex flex-col items-center justify-center w-[33rem] mr-2 min-width-[350px]">
+            <div className=" relative tracking-[0.05em] font-medium inline-block text-3xl ">
               <span>NARPATH RAMAN</span>
             </div>
             <div className=" relative  text-white text-justify inline-block text-xl leading-9">
@@ -58,16 +57,19 @@ const SpotlightInfo = () => {
               people. Known for delving into celebrities' minds, he
               effortlessly sparked curiosity among the audience.
             </div>
+            </div>
+
+          <div className="flex justify-center w-1/3 min-w-[290px]">
+            <img
+              className=" w-1/3 min-w-[290px]"
+              loading="lazy"
+              alt="Narpath Raman" src={Narpath} />
           </div>
-          <img
-            className=" w-1/3 min-w-[290px]"
-            loading="lazy"
-            alt="Narpath Raman" src={Narpath} />
-        </div>
+
 
       </section>
 
-      <section className="w-screen flex flex-row flex-wrap pt-[0rem] px-[0rem] pb-[0.313rem] box-border max-w-full text-center text-4xl text-gold space-x-10 justify-center" >
+      <section className="w-screen flex flex-row flex-wrap pt-[0rem] px-[0rem] pb-[0.313rem] box-border max-w-full text-center text-4xl text-gold  justify-center" >
         <div className="flex justify-center w-1/3">
           <img
             className=" w-1/3 min-w-[290px]"
@@ -89,15 +91,13 @@ const SpotlightInfo = () => {
       </section>
 
 
-      <section className="w-screen flex flex-row flex-wrap pt-[0rem] px-[0rem] pb-[0.313rem] box-border max-w-full text-center text-4xl text-gold space-x-10 justify-center" >
-
-        <div className="flex flex-row items-center justify-center">
-          <div className="flex flex-col max-w-[50%]">
+      <section className="w-screen flex flex-row flex-wrap pt-[0rem] px-[0rem] pb-[0.313rem] box-border max-w-full text-center text-4xl text-gold  justify-center" >
+          <div className="flex flex-col items-center justify-center w-[33rem] mr-2 min-width-[350px]">
             <div className=" relative tracking-[0.05em] font-medium inline-block text-3xl">
               <span>              CHRIS CHEONG
               </span>
             </div>
-            <div className=" relative  text-white text-center inline-block text-xl leading-9">
+            <div className=" relative  text-white text-justify inline-block text-xl leading-9">
               Chris Cheong is an international mentalist and illusionist. He was
               previously credited to be one of Malaysia's youngest professional
               mentalist and magician later publicly voted as one of Malaysia's top
@@ -105,15 +105,17 @@ const SpotlightInfo = () => {
               remains one of Spotlight's feat of strength.
             </div>
           </div>
+          <div className="flex justify-center w-1/3 min-w-[290px]">
           <img
             className="max-w-full  w-1/2  flex justify-center items-center "
             loading="lazy"
             alt="Chris Cheong" src={Chris} />
-        </div>
+            </div>
+
 
       </section>
 
-      <section className="w-screen flex flex-row flex-wrap pt-[0rem] px-[0rem] pb-[0.313rem] box-border max-w-full text-center text-4xl text-gold space-x-10 justify-center" >
+      <section className="w-screen flex flex-row flex-wrap pt-[0rem] px-[0rem] pb-[0.313rem] box-border max-w-full text-center text-4xl text-gold  justify-center" >
         <div className="flex justify-center w-1/3">
           <img
             className=" w-1/3 min-w-[290px]"
@@ -136,14 +138,12 @@ const SpotlightInfo = () => {
 
 
 
-      <section className="w-screen flex flex-row flex-wrap pt-[0rem] px-[0rem] pb-[0.313rem] box-border max-w-full text-center text-4xl text-gold space-x-10 justify-center" >
-
-        <div className="flex flex-row items-center justify-center">
-          <div className="flex flex-col max-w-[50%]">
-            <div className=" relative tracking-[0.05em] font-medium inline-block text-3xl">
+      <section className="w-screen flex flex-row flex-wrap pt-[0rem] px-[0rem] pb-[0.313rem] box-border max-w-full text-center text-4xl text-gold  justify-center" >
+          <div className="flex flex-col items-center justify-center w-[33rem] mr-2 min-width-[350px]">
+            <div className=" relative tracking-[0.05em] font-medium inline-block text-3xl ">
               <span>SUHANI SHAH</span>
             </div>
-            <div className=" relative  text-white text-center inline-block text-xl leading-9">
+            <div className=" relative  text-white text-justify inline-block text-xl leading-9">
               Suhani Shah is one among the
               few female magicians in India. With
               wonderful skills in sleight of hand,
@@ -153,6 +153,7 @@ const SpotlightInfo = () => {
               remains one of her best.
             </div>
           </div>
+          <div className="flex justify-center w-1/3 min-w-[290px] content-center flex-wrap ">
           <img
             className="max-w-full   h-1/2 flex justify-center items-center"
             loading="lazy"
