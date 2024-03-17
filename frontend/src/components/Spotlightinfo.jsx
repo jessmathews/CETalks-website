@@ -29,7 +29,8 @@ const SpotlightInfo = () => {
 
 
       <section className="w-screen flex flex-row flex-wrap pt-[0rem] px-[0rem] pb-[0.313rem] box-border max-w-full text-center text-4xl text-gold  justify-center" >
-        <div className="flex justify-center w-1/3 min-w-[290px]"><img
+        <div className="flex justify-center w-1/3 min-w-[290px] content-center flex-wrap">
+          <img
           className=" w-1/3 min-w-[290px]"
           loading="lazy"
           alt="Abhishek & Nirmal" src={AbhishekNirmal} />
@@ -59,7 +60,7 @@ const SpotlightInfo = () => {
             </div>
             </div>
 
-          <div className="flex justify-center w-1/3 min-w-[290px]">
+          <div className="flex justify-center w-1/3 min-w-[290px] content-center flex-wrap">
             <img
               className=" w-1/3 min-w-[290px]"
               loading="lazy"
@@ -70,7 +71,7 @@ const SpotlightInfo = () => {
       </section>
 
       <section className="w-screen flex flex-row flex-wrap pt-[0rem] px-[0rem] pb-[0.313rem] box-border max-w-full text-center text-4xl text-gold  justify-center" >
-        <div className="flex justify-center w-1/3">
+        <div className="flex justify-center w-1/3 min-w-[290px] content-center flex-wrap">
           <img
             className=" w-1/3 min-w-[290px]"
             loading="lazy"
@@ -105,9 +106,9 @@ const SpotlightInfo = () => {
               remains one of Spotlight's feat of strength.
             </div>
           </div>
-          <div className="flex justify-center w-1/3 min-w-[290px]">
+          <div className="flex justify-center w-1/2  content-center flex-wrap">
           <img
-            className="max-w-full  w-1/2  flex justify-center items-center "
+            className="w-1/2 min-w-[300px]  flex justify-center items-center"
             loading="lazy"
             alt="Chris Cheong" src={Chris} />
             </div>
@@ -116,7 +117,7 @@ const SpotlightInfo = () => {
       </section>
 
       <section className="w-screen flex flex-row flex-wrap pt-[0rem] px-[0rem] pb-[0.313rem] box-border max-w-full text-center text-4xl text-gold  justify-center" >
-        <div className="flex justify-center w-1/3">
+        <div className="flex justify-center w-1/3 min-w-[290px] content-center flex-wrap">
           <img
             className=" w-1/3 min-w-[290px]"
             loading="lazy"
@@ -153,9 +154,9 @@ const SpotlightInfo = () => {
               remains one of her best.
             </div>
           </div>
-          <div className="flex justify-center w-1/3 min-w-[290px] content-center flex-wrap ">
+          <div className="flex justify-center w-1/2  content-center flex-wrap ">
           <img
-            className="max-w-full   h-1/2 flex justify-center items-center"
+            className="min-w-[250px] w-1/2 flex justify-center items-center"
             loading="lazy"
             alt="Suhani Shah" src={Suhani} />
         </div>
