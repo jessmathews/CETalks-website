@@ -17,33 +17,27 @@ const Events = () => {
     ['event2', 'https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg'],
     ['event3' , 'https://lh3.googleusercontent.com/hwau7OVWx96XaME5KpRuJ0I_MscrerK6SbRH1UwYHYaxIDQQtn7RZK02LDSfBzCreidFgDsJeXyqDct6EZiH6vsV=w640-h400-e365-rj-sc0x00ffffff'],
 
-    ["event4" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"]
+    ["event4" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"] ,
+    ["event5" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"]
   ])
 
   // events = events.reverse()
 
-  const cardCount = 3;
+  
 
   var [ positions , setPositions] = useState( Array.from({length: events.length}, (x, i) => i ))
 
 
-  var [ cards , setCards] = useState( Array.from({length: cardCount}, (x, i) => i ))
-
 
   const changeEvent = ()=>{
 
-    cards = [...cards]
-
-    let c = cards.shift();
-    cards.push(c);  
-
+  
     positions = [...positions]
     let p = positions.shift()
     positions.push(p)
 
-    setCards(cards);
+
     setPositions(positions)
-   
     console.log(positions)
 
   }
@@ -81,23 +75,23 @@ const Events = () => {
             <div className="cards">
 
               {
-                events.slice(0 , cardCount).reverse().map((event ,index)=>{
+                events.slice(0 , events.length).reverse().map((event ,index)=>{
 
                   return (
 
                     <div 
                         className="card1 card" 
                         style={{
-                          right : cards[index]*20,
-                          zIndex: 1000+cards[ index],  
-                          height: `${85 + ( cards[index])*3}%`,
+                          right :  positions[index]*20 ,
+                          zIndex: 1000+positions[ index],  
+                          height: `${85 + ( positions[index])*3}%`,
                          
                         }}
 
                         onClick={changeEvent}
-                        >{events[ positions[index] ][0] }
+                        >{ event[0]}
 
-                        <img src= { events[ positions[index] ][1]  } alt="" />
+                        {/* <img src= { events[ positions[index] ][1]  } alt="" /> */}
                     </div>
                   )
                   

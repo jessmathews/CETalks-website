@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     /* align-items: center; */
+    overflow-x: hidden;
 }
 
 .events_container {
@@ -149,7 +150,7 @@
 .past_event_switcher {
     height: 300px;
     aspect-ratio: 1/1;
-    /* background-color: red; */
+    /* background-color: red;    */
     margin-top: 20vh;
 }
 
