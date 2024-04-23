@@ -1,15 +1,154 @@
 // Events.jsx
 
-import React from 'react';
+import React , {useState , useEffect} from 'react';
 import Header from '../components/Header';
+
+import EventData from '../components/EventData';
+import Footer from '../components/Footer';
+
+import "../styles/events.css"
+
 
 const Events = () => {
   // Your Events component logic
+
+  var [events, setEvents] = useState( [
+    ['event1' , 'https://preview.redd.it/i-got-bored-so-i-decided-to-draw-a-random-image-on-the-v0-4ig97vv85vjb1.png?width=640&crop=smart&auto=webp&s=22ed6cc79cba3013b84967f32726d087e539b699'],
+    ['event2', 'https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg'],
+    ['event3' , 'https://lh3.googleusercontent.com/hwau7OVWx96XaME5KpRuJ0I_MscrerK6SbRH1UwYHYaxIDQQtn7RZK02LDSfBzCreidFgDsJeXyqDct6EZiH6vsV=w640-h400-e365-rj-sc0x00ffffff'],
+
+    ["event4" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"] ,
+    ["event6" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"],
+    ["event7" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"],
+    ["event8" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"],
+    ["event9" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"],
+    ["event10" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"],
+    ["event11" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"],
+    ["event12" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"],
+    ["event13" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"],
+    ["event514" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"],
+
+
+  ])
+
+  // events = events.reverse()
+
+  
+
+  var [ positions , setPositions] = useState( Array.from({length: events.length}, (x, i) => i ))
+
+  var [ currentEvent , setCurrentEvent] = useState(0);
+
+
+
+  const changeEvent = ()=>{
+
+  
+    positions = [...positions]
+
+    // let p = positions.shift()
+    // positions.push(p)
+
+    let p = positions.pop()
+    positions.unshift(p);
+
+
+    setPositions(positions)
+    console.log(positions)
+    setCurrentEvent( (currentEvent + 1)%events.length   )
+
+  }
+
   return (
-    <div>
-    <Header />
-    <div className="mt-20"></div>
-      {/* Events page content */}
+    <div className="events" >
+      <Header />
+      <div className="events_container">
+
+
+       {/*  upcoming event section */}
+
+        <div className="upcoming_events">
+          <div className="events_data_heading"><h3 className='h_upcoming'>Upcoming</h3><h3 className='h_events'>EVENTS</h3></div>
+          <EventData showRegisterButton={true} details = {[ 'RJ HUNT' ]}/>
+        </div>
+
+
+        {/* past event section  */}
+
+        <div className="past_events">
+
+          {/*  displayed past event */}
+          <div className="past_events_container">
+
+            <div className="events_data_heading"><h3 className='h_upcoming'>Past</h3><h3 className='h_events'>EVENTS</h3></div>
+            <EventData className="single_past_event" width="80%"  details= {events[currentEvent]} />
+
+          </div>
+
+          {/*  past events card stack */}
+
+          <div className="past_event_switcher">
+
+            <div className="cards">
+
+              {
+                events.slice(0 , events.length).map((event ,index)=>{
+
+                  return (
+
+
+
+                    <div 
+                        className="card1 card" 
+                        style={{
+                          // right :  ( positions[index] < 4 ) ?  (  positions.length - positions[index] ) *20 : positions[0]*20,
+                          // right :   ( positions[index] > positions.length-4 )?  positions[index]*20 : 20,
+                          left :     (positions[index])*(positions.length - positions[index])*0.9 ,
+                          // left : ( positions[index] < 3 )? positions[index]* 20 : positions[4]*20 , 
+                          // zIndex:  10  + positions[ index],  
+                          zIndex : 10 + positions.length -  positions[index] ,
+                          height: `${100 - ( positions[index])*3}%`, 
+                         
+                        }}
+
+                        
+
+                        onClick={changeEvent}
+                      >{ event[0]} 
+
+                        {/* <img src= { events[ positions[index] ][1]  } alt="" /> */}
+                    </div>
+                  )
+                  
+                })
+              }
+
+              
+            </div>
+
+            <div className="indicator_circles">
+                {
+                  events.map((item , index)=>{
+                    return (
+                      <div className="indicator_circle"
+                        style={{
+                          backgroundColor: (index == currentEvent)? "yellow" : "white"
+                        }} 
+                      ></div>
+                    )
+                  })
+                }
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+      <Footer />
     </div>
   );
 };

@@ -1,0 +1,274 @@
+* {
+    font-family: sans-serif;
+
+}
+
+.events {
+    /* background-image: url('../../public/images/Dust.png');    */
+    height: 100%;
+    /* width: 100vw; */
+    background-color: #07060E;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    overflow-x: hidden;
+}
+
+.events_container {
+    width: 100vw;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center;     */
+
+}
+
+.upcoming_events {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 200px;
+    /* background-color: green; */
+}
+
+.events_data {
+    /* margin-top: 40vw; */
+    width: 100%;
+
+    /* background-color: green; */
+    /* background-color: red; */
+    /* height: 200px; */
+    /* background-color: green; */
+
+}
+
+.events_data_heading {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+}
+
+.events_data_heading h3 {
+    margin-left: 10px;
+    font-size: 30px;
+    /* color: white; */
+
+}
+
+.events_data_heading:nth-child(2) {
+    color: #E8E034;
+}
+
+.h_upcoming {
+    color: white;
+}
+
+.h_events {
+    color: #E8E034;
+
+}
+
+.events_data_main {
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: min-content;
+
+    justify-content: center;
+    /* padding: 20px; */
+}
+
+.events_data_poster {
+
+    /* height: 26vw; */
+    width: 100%;
+    aspect-ratio: 1/1;
+    margin: 0%;
+    /* width: 400px;    */
+    background-color: white;
+
+
+}
+
+.events_data_details {
+    /* background-color: green; */
+    /* height: 100%; */
+    /* height: min-content; */
+    width: 100%;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 50%; */
+    height: 100%;
+}
+
+.upcoming_event_title {
+    background: linear-gradient(90deg, #E8E034, #CA3035);
+    width: max-content;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+
+    font-size: 40px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.events_data_desc {
+    color: white;
+    /* background-color: red; */
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    /* width: 100vw; */
+
+}
+
+
+
+.events_data_register {
+    background-color: #E8E034;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    float: right;
+    margin-right: 20px;
+}
+
+.past_events {
+    margin-top: 150px;
+    width: 80%;
+    margin-bottom: 150px;
+}
+
+.past_event_switcher {
+    height: 300px;
+    aspect-ratio: 1/1;
+    /* background-color: red;    */
+    margin-top: 20vh;
+}
+
+.past_events{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+.cards{
+    /* background-color: green; */
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    background-color: rgb(116, 116, 116);
+    margin: 3px;
+    height: 80%;
+    width: 80%;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 2px solid white;
+    transition: 0.5s;
+
+    top: 50%;
+    transform: translateY(-50% );
+}
+.card img{
+    height: 100%;
+    width: 100%;
+}
+
+.indicator_circles{
+    display: flex;
+    height: 50px;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+}
+.indicator_circle{
+
+    height: 6px;
+    width: 6px;
+    border-radius: 100%;
+    background-color: white;
+    margin: 2px;
+}
+
+@media (max-width : 100vh) {
+
+    .events_data_main {
+        flex-direction: column;
+
+    }
+
+    .upcoming_events {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .events_data_details {
+        /* padding: 60px; */
+        text-align: left;
+        height: 50%;
+        width: 100%;
+    }
+
+    .events_data_desc {
+        width: 100%;
+
+    }
+
+    .past_events {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: green; */
+    }
+
+
+    .past_events_container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+        /* background-color: green; */
+    }
+
+    .events_data_register{
+        float: none;
+        margin: auto;
+    }
+
+    .past_event_switcher{
+        margin-top: 20px;
+        /* width: 90%; */
+
+    }
+
+    .card{
+        aspect-ratio: 1/1;
+        
+    }
+
+
+
+
+
+
+}
