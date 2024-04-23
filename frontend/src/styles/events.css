@@ -84,7 +84,7 @@
 .events_data_poster {
 
     /* height: 26vw; */
-    width: 70%;
+    width: 100%;
     aspect-ratio: 1/1;
     margin: 0%;
     /* width: 400px;    */
@@ -98,7 +98,7 @@
     /* height: 100%; */
     /* height: min-content; */
     width: 100%;
-    padding: 0px 100px;
+    padding: 0px 30px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -244,11 +244,27 @@
     .past_events_container {
         display: flex;
         align-items: center;
+        flex-direction: column;
         justify-content: center;
 
         /* background-color: green; */
     }
 
+    .events_data_register{
+        float: none;
+        margin: auto;
+    }
+
+    .past_event_switcher{
+        margin-top: 20px;
+        /* width: 90%; */
+
+    }
+
+    .card{
+        aspect-ratio: 1/1;
+        
+    }
 
 
 

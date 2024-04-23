@@ -103,7 +103,7 @@ const Events = () => {
                         style={{
                           // right :  ( positions[index] < 4 ) ?  (  positions.length - positions[index] ) *20 : positions[0]*20,
                           // right :   ( positions[index] > positions.length-4 )?  positions[index]*20 : 20,
-                          left :     (positions[index])*(positions.length - positions[index])*1 ,
+                          left :     (positions[index])*(positions.length - positions[index])*0.9 ,
                           // left : ( positions[index] < 3 )? positions[index]* 20 : positions[4]*20 , 
                           // zIndex:  10  + positions[ index],  
                           zIndex : 10 + positions.length -  positions[index] ,
