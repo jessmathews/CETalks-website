@@ -172,15 +172,16 @@
 }
 
 .card{
-    background-color: white;
+    background-color: rgb(116, 116, 116);
     margin: 3px;
     height: 80%;
     width: 80%;
+    color: white;
     border-radius: 10px;
     position: absolute;
     top: 0px;
     right: 0px;
-    border: 3px solid red;
+    border: 2px solid white;
     transition: 0.5s;
 
     top: 50%;
@@ -191,8 +192,21 @@
     width: 100%;
 }
 
+.indicator_circles{
+    display: flex;
+    height: 50px;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+}
+.indicator_circle{
 
-
+    height: 6px;
+    width: 6px;
+    border-radius: 100%;
+    background-color: white;
+    margin: 2px;
+}
 
 @media (max-width : 100vh) {
 

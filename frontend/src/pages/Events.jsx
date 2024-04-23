@@ -18,7 +18,17 @@ const Events = () => {
     ['event3' , 'https://lh3.googleusercontent.com/hwau7OVWx96XaME5KpRuJ0I_MscrerK6SbRH1UwYHYaxIDQQtn7RZK02LDSfBzCreidFgDsJeXyqDct6EZiH6vsV=w640-h400-e365-rj-sc0x00ffffff'],
 
     ["event4" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"] ,
-    ["event5" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"]
+    ["event6" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"],
+    ["event7" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"],
+    ["event8" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"],
+    ["event9" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"],
+    ["event10" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"],
+    ["event11" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"],
+    ["event12" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"],
+    ["event13" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"],
+    ["event514" , "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"],
+
+
   ])
 
   // events = events.reverse()
@@ -27,18 +37,25 @@ const Events = () => {
 
   var [ positions , setPositions] = useState( Array.from({length: events.length}, (x, i) => i ))
 
+  var [ currentEvent , setCurrentEvent] = useState(0);
+
 
 
   const changeEvent = ()=>{
 
   
     positions = [...positions]
-    let p = positions.shift()
-    positions.push(p)
+
+    // let p = positions.shift()
+    // positions.push(p)
+
+    let p = positions.pop()
+    positions.unshift(p);
 
 
     setPositions(positions)
     console.log(positions)
+    setCurrentEvent( (currentEvent + 1)%events.length   )
 
   }
 
@@ -64,7 +81,7 @@ const Events = () => {
           <div className="past_events_container">
 
             <div className="events_data_heading"><h3 className='h_upcoming'>Past</h3><h3 className='h_events'>EVENTS</h3></div>
-            <EventData className="single_past_event" width="80%"  details= {events[0 ]} />
+            <EventData className="single_past_event" width="80%"  details= {events[currentEvent]} />
 
           </div>
 
@@ -75,21 +92,29 @@ const Events = () => {
             <div className="cards">
 
               {
-                events.slice(0 , events.length).reverse().map((event ,index)=>{
+                events.slice(0 , events.length).map((event ,index)=>{
 
                   return (
+
+
 
                     <div 
                         className="card1 card" 
                         style={{
-                          right :  positions[index]*20 ,
-                          zIndex: 1000+positions[ index],  
-                          height: `${85 + ( positions[index])*3}%`,
+                          // right :  ( positions[index] < 4 ) ?  (  positions.length - positions[index] ) *20 : positions[0]*20,
+                          // right :   ( positions[index] > positions.length-4 )?  positions[index]*20 : 20,
+                          left :     (positions[index])*(positions.length - positions[index])*1 ,
+                          // left : ( positions[index] < 3 )? positions[index]* 20 : positions[4]*20 , 
+                          // zIndex:  10  + positions[ index],  
+                          zIndex : 10 + positions.length -  positions[index] ,
+                          height: `${100 - ( positions[index])*3}%`, 
                          
                         }}
 
+                        
+
                         onClick={changeEvent}
-                        >{ event[0]}
+                      >{ event[0]} 
 
                         {/* <img src= { events[ positions[index] ][1]  } alt="" /> */}
                     </div>
@@ -99,6 +124,21 @@ const Events = () => {
               }
 
               
+            </div>
+
+            <div className="indicator_circles">
+                {
+                  events.map((item , index)=>{
+                    return (
+                      <div className="indicator_circle"
+                        style={{
+                          backgroundColor: (index == currentEvent)? "yellow" : "white"
+                        }} 
+                      ></div>
+                    )
+                  })
+                }
+
             </div>
 
           </div>
