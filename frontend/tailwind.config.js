@@ -12,8 +12,10 @@ export default {
       backgroundColor: {
         '07060e': '#07060e',
       },
+      backgroundImage: {
+        'dust': "url('/images/Dust.png')",
     },
   },
   plugins: [],
 }
-
+}

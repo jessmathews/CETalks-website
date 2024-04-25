@@ -10,7 +10,7 @@ const Spotlight = () => {
   return (
     <div>
     <Header />
-    <div className="flex-1 bg-07060e">
+    <div className="flex-1 bg-07060e bg-dust">
       {/* Spotlight page content */}
       <Pastyears />
       <Footer />
