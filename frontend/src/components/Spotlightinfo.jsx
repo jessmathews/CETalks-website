@@ -5,6 +5,7 @@ import Rahul from '../assets/img/spotlight/sl3.png';
 import Chris from '../assets/img/spotlight/sl4.png';
 import Sorabh from '../assets/img/spotlight/sl5.png';
 import Suhani from '../assets/img/spotlight/sl6.png';
+import '../styles/Spotlight.css';
 
 
 const SpotlightInfo = () => {
@@ -31,9 +32,9 @@ const SpotlightInfo = () => {
       <section className="w-screen flex flex-row flex-wrap pt-[0rem] px-[0rem] pb-[0.313rem] box-border max-w-full text-center text-4xl text-gold  justify-center" >
         <div className="flex justify-center w-1/3 min-w-[290px] content-center flex-wrap">
           <img
-          className=" w-1/3 min-w-[290px]"
-          loading="lazy"
-          alt="Abhishek & Nirmal" src={AbhishekNirmal} />
+            className=" w-1/3 min-w-[290px]"
+            loading="lazy"
+            alt="Abhishek & Nirmal" src={AbhishekNirmal} />
         </div>
         <div className="flex flex-col items-center justify-center w-[33rem] mr-2 min-width-[350px]">
           <div className=" relative tracking-[0.05em] font-medium inline-block text-3xl">
@@ -48,24 +49,24 @@ const SpotlightInfo = () => {
 
       </section>
       <section className="w-screen flex flex-row flex-wrap pt-[0rem] px-[0rem] pb-[0.313rem] box-border max-w-full text-center text-4xl text-gold  justify-center" >
-            <div className="flex flex-col items-center justify-center w-[33rem] mr-2 min-width-[350px]">
-            <div className=" relative tracking-[0.05em] font-medium inline-block text-3xl ">
-              <span>NARPATH RAMAN</span>
-            </div>
-            <div className=" relative  text-white text-justify inline-block text-xl leading-9">
-              An Indian mentalist named as one of the top 20 inspiring men in
-              2017 . He is simply an expert in altering thoughts and amusing
-              people. Known for delving into celebrities' minds, he
-              effortlessly sparked curiosity among the audience.
-            </div>
-            </div>
-
-          <div className="flex justify-center w-1/3 min-w-[290px] content-center flex-wrap">
-            <img
-              className=" w-1/3 min-w-[290px]"
-              loading="lazy"
-              alt="Narpath Raman" src={Narpath} />
+        <div className="flex flex-col items-center justify-center w-[33rem] mr-2 min-width-[350px] first">
+          <div className=" relative tracking-[0.05em] font-medium inline-block text-3xl ">
+            <span>NARPATH RAMAN</span>
           </div>
+          <div className=" relative  text-white text-justify inline-block text-xl leading-9">
+            An Indian mentalist named as one of the top 20 inspiring men in
+            2017 . He is simply an expert in altering thoughts and amusing
+            people. Known for delving into celebrities' minds, he
+            effortlessly sparked curiosity among the audience.
+          </div>
+        </div>
+
+        <div className="flex justify-center w-1/3 min-w-[290px] content-center flex-wrap order-2 second">
+          <img
+            className=" w-1/3 min-w-[290px]"
+            loading="lazy"
+            alt="Narpath Raman" src={Narpath} />
+        </div>
 
 
       </section>
@@ -93,25 +94,25 @@ const SpotlightInfo = () => {
 
 
       <section className="w-screen flex flex-row flex-wrap pt-[0rem] px-[0rem] pb-[0.313rem] box-border max-w-full text-center text-4xl text-gold  justify-center" >
-          <div className="flex flex-col items-center justify-center w-[33rem] mr-2 min-width-[350px]">
-            <div className=" relative tracking-[0.05em] font-medium inline-block text-3xl">
-              <span>              CHRIS CHEONG
-              </span>
-            </div>
-            <div className=" relative  text-white text-justify inline-block text-xl leading-9">
-              Chris Cheong is an international mentalist and illusionist. He was
-              previously credited to be one of Malaysia's youngest professional
-              mentalist and magician later publicly voted as one of Malaysia's top
-              ten magicians. To bring such a luminary to our audience still
-              remains one of Spotlight's feat of strength.
-            </div>
+        <div className="flex flex-col items-center justify-center w-[33rem] mr-2 min-width-[350px]  first">
+          <div className=" relative tracking-[0.05em] font-medium inline-block text-3xl">
+            <span>              CHRIS CHEONG
+            </span>
           </div>
-          <div className="flex justify-center w-1/2  content-center flex-wrap">
+          <div className=" relative  text-white text-justify inline-block text-xl leading-9">
+            Chris Cheong is an international mentalist and illusionist. He was
+            previously credited to be one of Malaysia's youngest professional
+            mentalist and magician later publicly voted as one of Malaysia's top
+            ten magicians. To bring such a luminary to our audience still
+            remains one of Spotlight's feat of strength.
+          </div>
+        </div>
+        <div className="flex justify-center w-1/2  content-center flex-wrap order-2 second">
           <img
             className="w-1/2 min-w-[300px]  flex justify-center items-center"
             loading="lazy"
             alt="Chris Cheong" src={Chris} />
-            </div>
+        </div>
 
 
       </section>
@@ -140,21 +141,21 @@ const SpotlightInfo = () => {
 
 
       <section className="w-screen flex flex-row flex-wrap pt-[0rem] px-[0rem] pb-[0.313rem] box-border max-w-full text-center text-4xl text-gold  justify-center" >
-          <div className="flex flex-col items-center justify-center w-[33rem] mr-2 min-width-[350px]">
-            <div className=" relative tracking-[0.05em] font-medium inline-block text-3xl ">
-              <span>SUHANI SHAH</span>
-            </div>
-            <div className=" relative  text-white text-justify inline-block text-xl leading-9">
-              Suhani Shah is one among the
-              few female magicians in India. With
-              wonderful skills in sleight of hand,
-              mind reading & situational comedy,
-              she brings audiences to their feet
-              and her performance at Spotlight
-              remains one of her best.
-            </div>
+        <div className="flex flex-col items-center justify-center w-[33rem] mr-2 min-width-[350px]  first">
+          <div className=" relative tracking-[0.05em] font-medium inline-block text-3xl ">
+            <span>SUHANI SHAH</span>
           </div>
-          <div className="flex justify-center w-1/2  content-center flex-wrap ">
+          <div className=" relative  text-white text-justify inline-block text-xl leading-9">
+            Suhani Shah is one among the
+            few female magicians in India. With
+            wonderful skills in sleight of hand,
+            mind reading & situational comedy,
+            she brings audiences to their feet
+            and her performance at Spotlight
+            remains one of her best.
+          </div>
+        </div>
+        <div className="flex justify-center w-1/2  content-center flex-wrap order-2 second">
           <img
             className="min-w-[250px] w-1/2 flex justify-center items-center"
             loading="lazy"

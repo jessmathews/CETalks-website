@@ -1,0 +1,8 @@
+@media only screen and (max-width: 870px) {
+    .first {
+      order: 2;
+    }
+    .second {
+      order: 1;
+    }
+  }
