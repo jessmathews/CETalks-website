@@ -10,7 +10,7 @@ import spotify12 from '../assets/img/social-icons/spotify-1@2x.png';
 
 const Footer = () => {
   return (
-    <div className="bg-07060e text-white p-4 bottom-0 w-full mt-3">
+    <div className="bg-07060e text-white p-4 bottom-0 w-full mt-3 bg-dust">
       <div className="container mx-auto flex flex-row items-start justify-start gap-[0.44rem] max-w-full text-center text-[0.69rem] font-outfit">
         <div className="flex-1 flex flex-col items-center justify-start gap-[1.31rem] min-w-[13.06rem] max-w-full">
           <div className="self-stretch flex flex-row items-start justify-center gap-[0.38rem] flex-wrap">

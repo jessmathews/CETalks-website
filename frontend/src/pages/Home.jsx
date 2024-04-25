@@ -12,9 +12,10 @@ const Home = () => {
   return (
     <div className="bg-07060e flex flex-col">
       <Header />
-      <div className="flex-1 mt-20 bg-07060e">
+      <div className="flex-1 mt-20 bg-07060e bg-dust">
         {/* Other content for the home page goes here */}
         <Banner />
+        
         <Spotify />
         <Youtube />
         <UpcomingEvents />

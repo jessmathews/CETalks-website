@@ -5,7 +5,7 @@ import instagramIcon from '../assets/img/social-icons/instagram@2x.png';
 
 const ContactSection = () => {
   return (
-    <section className="contact-section py-5 bg-dark-blue">
+    <section className="contact-section py-5 bg-dust">
       <div className="contact-top py-lg-5 py-md-4 py-2">
         <div className="container mx-auto">
           <div className="title-container text-center mx-auto mb-md-5 mb-4" style={{ maxWidth: '500px' }}>
@@ -15,7 +15,7 @@ const ContactSection = () => {
             <h3 className="main-title text-[3.2rem] text-white outfit-font font-[500]">Contact Us</h3>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-6">
-            <div className="col-md-8 contact-form">
+            <div className="col-md-8 contact-form bg-dust">
               <form action="https://sendmail.w3layouts.com/submitForm" method="post" className="main-input">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-6">
                   <div>

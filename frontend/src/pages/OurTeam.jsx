@@ -6,7 +6,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 const OurTeam = () => {
   return (
-    <div className="bg-07060e">
+    <div className="bg-07060e bg-dust">
     <Header />
     <div className="mt-20 "></div>
     <div>

@@ -9,7 +9,7 @@ import Suhani from '../assets/img/spotlight/sl6.png';
 
 const SpotlightInfo = () => {
   return (
-    <div className="w-full relative bg-07060e overflow-hidden flex flex-col items-center justify-start pt-[10rem] pb-[1.688rem] pr-[1.25rem] pl-[1.25rem] box-border gap-[10.5rem_0rem] tracking-[normal] text-center text-[3.125rem] text-white outfit-font lg:gap-[10.5rem_0rem] lg:pl-[2.5rem] lg:box-border mq750:gap-[10.5rem_0rem] mq450:gap-[10.5rem_0rem]">
+    <div className="w-full relative overflow-hidden flex flex-col items-center justify-start pt-[10rem] pb-[1.688rem] pr-[1.25rem] pl-[1.25rem] box-border gap-[10.5rem_0rem] tracking-[normal] text-center text-[3.125rem] text-white outfit-font lg:gap-[10.5rem_0rem] lg:pl-[2.5rem] lg:box-border mq750:gap-[10.5rem_0rem] mq450:gap-[10.5rem_0rem]">
       <section className="flex flex-col items-center h-screen">
         <div className="flex ">
           <div className="flex flex-col">
