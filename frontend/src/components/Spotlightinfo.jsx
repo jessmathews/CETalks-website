@@ -61,7 +61,7 @@ const SpotlightInfo = () => {
           </div>
         </div>
 
-        <div className="flex justify-center w-1/3 min-w-[290px] content-center flex-wrap order-2 second">
+        <div className="flex justify-center w-1/3 min-w-[290px] content-center flex-wrap second">
           <img
             className=" w-1/3 min-w-[290px]"
             loading="lazy"
@@ -107,7 +107,7 @@ const SpotlightInfo = () => {
             remains one of Spotlight's feat of strength.
           </div>
         </div>
-        <div className="flex justify-center w-1/2  content-center flex-wrap order-2 second">
+        <div className="flex justify-center w-1/2  content-center flex-wrap second">
           <img
             className="w-1/2 min-w-[300px]  flex justify-center items-center"
             loading="lazy"
@@ -155,7 +155,7 @@ const SpotlightInfo = () => {
             remains one of her best.
           </div>
         </div>
-        <div className="flex justify-center w-1/2  content-center flex-wrap order-2 second">
+        <div className="flex justify-center w-1/2  content-center flex-wrap  second">
           <img
             className="min-w-[250px] w-1/2 flex justify-center items-center"
             loading="lazy"
