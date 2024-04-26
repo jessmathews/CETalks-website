@@ -8,19 +8,23 @@ import Footer from '../components/Footer';
 
 import "../styles/events.css"
 import { array } from 'prop-types';
-
-
+import spotlight3 from '../assets/event_posters/spotlight3.jpeg';
+import detox from '../assets/event_posters/detox.jpeg';
+import get_set_radio from '../assets/event_posters/get_set_radio.jpeg';
+import spotlight_2018 from '../assets/event_posters/spot_light_2018.jpeg';
+import spotlight_2 from '../assets/event_posters/spotlight2.jpeg';
+import therenjeduppu from '../assets/event_posters/therenjeduppu.jpeg';
 const Events = () => {
   // Your Events component logic
 
   let allEvents = [
 
-    ['Spotlight 3' , 'spotlight3.jpeg'],
-    ['Detox' , 'detox.jpeg'],
-    ['Get Set Radio', 'get_set_radio.jpeg'],
-    ['Spot Light 2018' , 'spot_light_2018.jpeg'],
-    ['Spotlight 2' , 'spotlight2.jpeg'],
-    ['Therenjeduppu' , 'therenjeduppu.jpeg'],
+    ['Spotlight 3' , spotlight3],
+    ['Detox' , detox],
+    ['Get Set Radio',get_set_radio],
+    ['Spotlight 2018' , spotlight_2018],
+    ['Spotlight 2' , spotlight_2],
+    ['Therenjeduppu' , therenjeduppu],
     
   ]
 
@@ -60,9 +64,9 @@ const Events = () => {
   }
 
   return (
-    <div className="events" >
+    <div className="events bg-dust bg-07060e" >
       <Header />
-      <div className="events_container">
+      <div className="events_container ">
 
 
        {/*  upcoming event section */}
@@ -117,7 +121,7 @@ const Events = () => {
                         onClick={changeEvent}
                       >
 
-                        <img src= {`src/assets/event_posters/${event[1]}` } alt="" />
+                        <img className='object-cover' src= {event[1]} alt={`${event[0]}`} />
                     </div>
                   )
                   
