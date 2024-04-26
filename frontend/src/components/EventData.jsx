@@ -5,7 +5,10 @@ export default function EventData({width, showRegisterButton , details}) {
 
     <div className="events_data" style= {{width : width}}>
     <div className="events_data_main">
-      <div className="events_data_poster"></div>
+      <div className="events_data_poster">
+
+        <img src={`src/assets/event_posters/${details[1]}`} alt="" />
+      </div>
       <div className="events_data_details">
         <h3 className='upcoming_event_title'>{details[0]}</h3>
         <p className="events_data_desc">
