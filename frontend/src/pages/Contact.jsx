@@ -9,13 +9,15 @@ import Footer from '../components/Footer';
 const Contact = () => {
   // Your Contact component logic
   return (
-    <div className="bg-07060e">
+    <div className="bg-07060e ">
     <Header />
-    <div className="mt-20"></div>
+    <div className="mt-20">
       <ContactSection />
       <ContactMap />
       <Footer />
+      </div>
     </div>
+
   );
 };
 
