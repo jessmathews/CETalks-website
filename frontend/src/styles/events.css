@@ -1,5 +1,5 @@
 * {
-    font-family: sans-serif;
+    font-family: outfit;
 
 }
 
@@ -28,7 +28,7 @@
     display: flex;
     flex-direction: column;
     width: 80%;
-    margin-top: 200px;
+    margin-top: 100px;
     /* background-color: green; */
 }
 
@@ -85,7 +85,7 @@
 
     /* height: 26vw; */
     width: 100%;
-    aspect-ratio: 1/1;
+    /* aspect-ratio: 1/1; */
     margin: 0%;
     /* width: 400px;    */
     background-color: white;
@@ -100,7 +100,7 @@
     width: 100%;
     padding: 0px 30px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     justify-content: center;
     /* width: 50%; */
@@ -108,16 +108,15 @@
 }
 
 .upcoming_event_title {
-    background: linear-gradient(90deg, #E8E034, #CA3035);
+    /*background: linear-gradient(90deg, #E8E034, #CA3035);
     width: max-content;
 
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-
-
-    font-size: 40px;
+    background-clip: text;
+    */
+    font-size: 2.5rem;
     margin-bottom: 10px;
-    width: 100%;
 }
 
 .events_data_desc {
@@ -154,14 +153,15 @@
     margin-top: 20vh;
 }
 
-.past_events{
+.past_events {
     display: flex;
     flex-direction: row;
     margin-top: 10vh;
     align-items: center;
     justify-content: center;
 }
-.cards{
+
+.cards {
     /* background-color: green; */
     height: 100%;
     width: 100%;
@@ -171,7 +171,7 @@
     justify-content: center;
 }
 
-.card{
+.card {
     background-color: rgb(116, 116, 116);
     margin: 3px;
     height: 80%;
@@ -185,21 +185,23 @@
     transition: 0.5s;
 
     top: 50%;
-    transform: translateY(-50% );
+    transform: translateY(-50%);
 }
-.card img{
+
+.card img {
     height: 100%;
     width: 100%;
 }
 
-.indicator_circles{
+.indicator_circles {
     display: flex;
     height: 50px;
     /* background-color: red; */
     align-items: center;
     justify-content: center;
 }
-.indicator_circle{
+
+.indicator_circle {
 
     height: 6px;
     width: 6px;
@@ -250,20 +252,20 @@
         /* background-color: green; */
     }
 
-    .events_data_register{
+    .events_data_register {
         float: none;
         margin: auto;
     }
 
-    .past_event_switcher{
+    .past_event_switcher {
         margin-top: 20px;
         /* width: 90%; */
 
     }
 
-    .card{
+    .card {
         aspect-ratio: 1/1;
-        
+
     }
 
 
