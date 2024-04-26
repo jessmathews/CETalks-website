@@ -20,7 +20,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-07060e text-white p-6 fixed w-full top-0 z-50">
+    <header className="bg-07060e bg-dust text-white p-4 fixed w-full top-0 z-50">
     <div className="container mx-auto pr-1 lg:pr-8  flex justify-between items-center top-70 left-509">
         {/* Logo */}
         <Link to="/" className="flex items-center">
