@@ -1,6 +1,6 @@
 // App.jsx
 
-import React from 'react';
+import React,{useState} from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './pages/Home';
@@ -9,11 +9,14 @@ import OurTeam from './pages/OurTeam';
 import Spotlight from './pages/Spotlight';
 import Contact from './pages/Contact';
 import Events from './pages/Events';
-
+import Loader from './components/Loader'
 const App = () => {
+
+
   return (
-    <Router>
-      <div>
+    
+      <Router>
+      <>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/media" element={<Media />} />
@@ -22,8 +25,10 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/events" element={<Events />} />
           </Routes>
-        </div>
+</>
     </Router>
+  
+
   );
 };
 
