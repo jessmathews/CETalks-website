@@ -19,12 +19,12 @@ const Events = () => {
 
   let allEvents = [
 
-    ['Spotlight 3' , spotlight3],
-    ['Detox' , detox],
-    ['Get Set Radio',get_set_radio],
-    ['Spotlight 2018' , spotlight_2018],
-    ['Spotlight 2' , spotlight_2],
-    ['Therenjeduppu' , therenjeduppu],
+    ['Spotlight 2022' , spotlight3,'Spotlight, the dynamic talent showcase curated by CETALKS, brings you an unforgettable evening of entertainment! From seasoned professionals to fresh faces, this is your chance to witness a lineup of incredible artists who will leave you spellbound. With performances ranging from soulful melodies to rib-tickling humor, get set for a night of laughter, music, and endless entertainment!'],
+    ['Detox' , detox, 'content to be added soon'],
+    ['Get Set Radio',get_set_radio, 'content to be added soon'],
+    ['Spotlight 2018' , spotlight_2018, 'content to be added soon'],
+    ['Spotlight 2' , spotlight_2, 'content to be added soon'],
+    ['Therenjeduppu' , therenjeduppu, 'content to be added soon'],
     
   ]
 

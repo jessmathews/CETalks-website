@@ -3,8 +3,8 @@ import React from 'react';
 import MemberCard from './MemberCard'; // Import your MemberCard component here
 import Niha from '../assets/img/team/niha_fathima.png';
 import Basil from '../assets/img/team/basil_sabu.png';
-import rj3 from '../assets/img/team/rj_no3.png';
-import rj4 from '../assets/img/team/rj_no4.png';
+import meera from '../assets/img/team/meera_sreekumar.png';
+import agrima from '../assets/img/team/agrima.png';
 import anufrancis from '../assets/img/team/anu_francis_alapatt.png';
 import fayas from '../assets/img/team/fayas_abdul_rahim.png';
 import irfan from '../assets/img/team/mohammed_irfan.png';
@@ -31,7 +31,7 @@ const Teammember = () => {
             <MemberCard
               name='Niha Fathima'
               image={Niha}
->
+            >
             </MemberCard>
             <MemberCard
               name='Basil Sabu'
@@ -39,16 +39,17 @@ const Teammember = () => {
             >
             </MemberCard>
             <MemberCard
-              name='RJ'
-              image={rj3}>
+              name='Meera Sreekumar'
+              image={meera}>
 
             </MemberCard>
             <MemberCard
-              name="RJ"
-              image={rj4}>
+              name="Agrima V"
+              image={agrima}>
             </MemberCard>
             <MemberCard name='Anu Francis Alapatt'
-              image={anufrancis}></MemberCard>
+              image={anufrancis}>
+            </MemberCard>
 
           </div>
         </div>
