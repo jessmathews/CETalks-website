@@ -55,7 +55,7 @@ const ContactSection = () => {
             <h3 className="main-title text-[3.2rem] text-white outfit-font font-[500]">Contact Us</h3>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-6">
-            <div className="col-md-8 contact-form">
+            <div className="col-md-8 contact-form bg-07060e bg-dust">
               <form onSubmit={handleSubmit} className="main-input">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-6">
                   <div>
@@ -103,7 +103,7 @@ const ContactSection = () => {
                   onChange={(e) => setMsg(e.target.value)}
                 ></textarea>
                 <div className="flex justify-center md:justify-end mt-4">
-                  <button type="submit" className="btn btn-primary px-6 py-3">
+                  <button type="submit" className="btn btn-primary px-6 py-3 bg-07060e">
                     Send Now
                   </button>
                 </div>
