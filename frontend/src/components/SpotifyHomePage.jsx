@@ -20,7 +20,7 @@ const SpotifyHomePage = () => {
             src={latestRelease.spotifyLink}
             width="100%" 
             height="200" 
-            frameborder="0" 
+            frameBorder="0" 
             allowFullScreen
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
             loading="lazy"
