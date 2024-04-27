@@ -127,3 +127,12 @@ nav a {
   text-align: left;
   margin-top: 10px; /* Adjust the margin as needed */
 }
+
+.gradient-border {
+
+    /* background: linear-gradient(, #E8E034, #CA3035); */
+    border-bottom: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #E8E034, #CA3035);
+    
+}

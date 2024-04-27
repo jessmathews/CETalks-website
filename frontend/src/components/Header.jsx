@@ -20,7 +20,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-07060e text-white p-6 fixed w-full top-0 z-50">
+    <header className="bg-07060e bg-dust text-white p-4 fixed w-full top-0 z-[1500]">
     <div className="container mx-auto pr-1 lg:pr-8  flex justify-between items-center top-70 left-509">
         {/* Logo */}
         <Link to="/" className="flex items-center">
@@ -67,7 +67,7 @@ const Header = () => {
 
         {/* Full-width Dropdown Menu for smaller screens */}
         {isNavOpen && (
-          <div className="lg:hidden w-full absolute top-20 left-0 bg-black text-white text-center outfit-font text-[1.2rem]">
+          <div className="lg:hidden w-full absolute top-20 left-0 bg-07060e text-white text-center outfit-font text-[1.2rem]">
             <Link
               to="/"
               className={`block py-3 hover:text-yellow-100 font-medium ${location.pathname === '/' ? 'text-yellow-200' : ''}`}

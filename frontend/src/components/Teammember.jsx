@@ -1,7 +1,16 @@
 // Teammember.jsx
 import React from 'react';
 import MemberCard from './MemberCard'; // Import your MemberCard component here
-import teamMemberImage1 from '../assets/img/team/team-1.jpg';
+import Niha from '../assets/img/team/niha_fathima.png';
+import Basil from '../assets/img/team/basil_sabu.png';
+import rj3 from '../assets/img/team/rj_no3.png';
+import rj4 from '../assets/img/team/rj_no4.png';
+import anufrancis from '../assets/img/team/anu_francis_alapatt.png';
+import fayas from '../assets/img/team/fayas_abdul_rahim.png';
+import irfan from '../assets/img/team/mohammed_irfan.png';
+import rohan from '../assets/img/team/rohan_vijayakumar.png';
+import sherin from '../assets/img/team/sherin_mary_rajee.png';
+import sreelakshmy from '../assets/img/team/sreelakshmy_ajit.png'
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import '../styles/styles.css';
 
@@ -9,547 +18,93 @@ const Teammember = () => {
   return (
     <section id="team" className="team py-8 lg:py-16">
       <div className="container mx-auto text-center">
-        <h2 className="text-4xl xl:text-[3rem] font-normal mb-7 lg:mb-12 text-white outfit-font">EXECOM 2023-24</h2>
-        <p className="text-white"></p>
-      </div>
-      <div className="container mx-auto mt-8 albert-font">
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-8">
-          {/* Team Member 1 */}
-          <MemberCard
-            name="Harry Potter"
-            position="Chairperson"
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 2 */}
-          <MemberCard
-            name="Another Member"
-            position="Vice Chairperson"
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 3 */}
-          <MemberCard
-            name="Another Member"
-            position="Chief RJ"
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 4 */}
-          <MemberCard
-            name="Another Member"
-            position="General Secretary"
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 5 */}
-          <MemberCard
-            name="Harry Potter"
-            position="Program Head"
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 6 */}
-          <MemberCard
-            name="Another Member"
-            position="Program coordinator"
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 7 */}
-          <MemberCard
-            name="Another Member"
-            position="Design Head"
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 8 */}
-          <MemberCard
-            name="Another Member"
-            position="Design Head"
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 9 */}
-          <MemberCard
-            name="Harry Potter"
-            position="Media Head"
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 10 */}
-          <MemberCard
-            name="Another Member"
-            position="Media Head"
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 11 */}
-          <MemberCard
-            name="Another Member"
-            position="Technical Head"
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 12 */}
-          <MemberCard
-            name="Another Member"
-            position="Technical Head"
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-          {/* Add more Team Members as needed */}
-        </div>
-
-        <div className="grid grid-cols-2 lg:grid-cols-3 mt-7 lg:mt-10 lg:ml-10 lg:mr-10 xl:ml-40 xl:mr-40">
-        
-          {/* Team Member 13 */}
-          <MemberCard
-            name="Harry Potter"
-            position="Public Relations"
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 14 */}
-          <MemberCard
-            name="Another Member"
-            position="Public Relations"
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-          <div className="col-span-2 lg:col-span-1 mx-auto">
-          {/* Team Member 15 */}
-          <MemberCard
-            name="Another Member"
-            position="Social Media Manager"
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-        </div>
-        </div>
+        <span className="text-[2.5rem] text-center outfit-font whitespace-nowrap inline-block bg-gradient-to-b from-[#E8E034] to-[#CA3035] bg-clip-text text-transparent gradient-border font-normal text-6xl leading-[6rem]" style={{ paddingBottom: "0.5rem" }}>Our Team</span>
 
       </div>
+      <section className='py-8 lg:py-16'>
+        <div className='flex flex-row outfit-font flex-wrap justify-center h-2/3'>
+          <div className='flex flex-col items-center justify-center w-[185px]'>
+            <div className="text-[2rem] md:text-[2.5rem] lg:text-[3rem] bg-gradient-to-b from-[#E8E034] to-[#C83134] bg-clip-text text-transparent inline-block leading">RJ</div>
+            <div className="text-[1.3rem] md:text-[1.7rem] lg:text-[2rem] leading-5 text-white uppercase">Team</div>
+          </div>
+          <div className='flex flex-row items-center justify-around flex-wrap m-4 max-w-[850px] gap-4'>
+            <MemberCard
+              name='Niha Fathima'
+              image={Niha}
+>
+            </MemberCard>
+            <MemberCard
+              name='Basil Sabu'
+              image={Basil}
+            >
+            </MemberCard>
+            <MemberCard
+              name='RJ'
+              image={rj3}>
 
-      <div className="container mx-auto text-center">
-        <h2 className="text-4xl xl:text-[3rem] font-normal mb-7 lg:mb-12 text-white outfit-font mt-20">RJs</h2>
-        <p className="text-white"></p>
-      </div>
-      <div className="container mx-auto mt-8 albert-font">
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-8">
-          {/* Team Member 1 */}
-          <MemberCard
-            name="Harry Potter"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
+            </MemberCard>
+            <MemberCard
+              name="RJ"
+              image={rj4}>
+            </MemberCard>
+            <MemberCard name='Anu Francis Alapatt'
+              image={anufrancis}></MemberCard>
 
-          {/* Team Member 2 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 3 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 4 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Add more Team Members as needed */}
+          </div>
         </div>
-
-        <div className="grid grid-cols-2 lg:grid-cols-3 mt-7 lg:mt-10 lg:ml-10 lg:mr-10 xl:ml-40 xl:mr-40">
-        
-          {/* Team Member 13 */}
-          <MemberCard
-            name="Harry Potter"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 14 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-          <div className="col-span-2 lg:col-span-1 mx-auto">
-          {/* Team Member 15 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
+      </section>
+      <section className='py-8 lg:py-16'>
+        <div className='flex flex-row outfit-font flex-wrap justify-center h-2/3'>
+          <div className='flex flex-col items-center justify-center w-[185px]'>
+            <div className="text-[2rem] md:text-[2.5rem] lg:text-[3rem] bg-gradient-to-b from-[#E8E034] to-[#C83134] bg-clip-text text-transparent inline-block leading uppercase">Design</div>
+            <div className="text-[1.3rem] md:text-[1.7rem] lg:text-[2rem] leading-5 text-white uppercase">Team</div>
+          </div>
+          <div className='flex flex-row items-center justify-around flex-wrap m-8 max-w-[850px] gap-4'>
+            <MemberCard
+              name='Rohan Vijayakumar'
+              image={rohan}
+              github=''>
+            </MemberCard>
+            <MemberCard name='Fayas Abdul Rahim'
+              image={fayas}
+            >
+            </MemberCard>
+          </div>
         </div>
+      </section>
+      <section className='py-8 lg:py-16'>
+        <div className='flex flex-row outfit-font flex-wrap justify-center h-2/3'>
+          <div className='flex flex-col items-center justify-center w-[185px]'>
+            <div className="text-[2rem] md:text-[2.5rem] lg:text-[3rem] bg-gradient-to-b from-[#E8E034] to-[#C83134] bg-clip-text text-transparent inline-block leading uppercase">Program</div>
+            <div className="text-[1.3rem] md:text-[1.7rem] lg:text-[2rem] leading-5 text-white uppercase">Team</div>
+          </div>
+          <div className='flex flex-row items-center justify-around flex-wrap m-8 max-w-[850px] gap-4'>
+            <MemberCard
+              name='Sherin Mary Rajee'
+              image={sherin}>
+            </MemberCard>
+            <MemberCard name='Sreelakshmy Ajit'
+              image={sreelakshmy}
+            >
+            </MemberCard>
+          </div>
         </div>
-
-      </div>
-
-
-      <div className="container mx-auto text-center">
-        <h2 className="text-4xl xl:text-[3rem] font-normal mb-7 lg:mb-12 text-white outfit-font mt-20">Program Team</h2>
-        <p className="text-white"></p>
-      </div>
-      <div className="container mx-auto mt-8 albert-font">
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-8">
-          {/* Team Member 1 */}
-          <MemberCard
-            name="Harry Potter"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 2 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 3 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 4 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Add more Team Members as needed */}
+      </section>
+      <section className='py-8 lg:py-16'>
+        <div className='flex flex-row outfit-font flex-wrap justify-center h-2/3'>
+          <div className='flex flex-col items-center justify-center w-[185px]'>
+            <div className="text-[2rem] md:text-[2.5rem] lg:text-[3rem] bg-gradient-to-b from-[#E8E034] to-[#C83134] bg-clip-text text-transparent inline-block leading uppercase">Tech</div>
+            <div className="text-[1.3rem] md:text-[1.7rem] lg:text-[2rem] leading-5 text-white uppercase">Team</div>
+          </div>
+          <div className='flex flex-row items-center justify-around flex-wrap m-8 max-w-[850px] gap-4'>
+            <MemberCard
+              name='Mohammed Irfan'
+              image={irfan}
+              github=''>
+            </MemberCard>
+          </div>
         </div>
-
-        <div className="grid grid-cols-2 lg:grid-cols-3 mt-7 lg:mt-10 lg:ml-10 lg:mr-10 xl:ml-40 xl:mr-40">
-        
-          {/* Team Member 13 */}
-          <MemberCard
-            name="Harry Potter"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 14 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-          <div className="col-span-2 lg:col-span-1 mx-auto">
-          {/* Team Member 15 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-        </div>
-        </div>
-
-      </div>
-
-
-      <div className="container mx-auto text-center">
-        <h2 className="text-4xl xl:text-[3rem] font-normal mb-7 lg:mb-12 text-white outfit-font mt-20">Media Team</h2>
-        <p className="text-white"></p>
-      </div>
-      <div className="container mx-auto mt-8 albert-font">
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-8">
-          {/* Team Member 1 */}
-          <MemberCard
-            name="Harry Potter"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 2 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 3 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 4 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Add more Team Members as needed */}
-        </div>
-
-        <div className="grid grid-cols-2 lg:grid-cols-3 mt-7 lg:mt-10 lg:ml-10 lg:mr-10 xl:ml-40 xl:mr-40">
-        
-          {/* Team Member 13 */}
-          <MemberCard
-            name="Harry Potter"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 14 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-          <div className="col-span-2 lg:col-span-1 mx-auto">
-          {/* Team Member 15 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-        </div>
-        </div>
-
-      </div>
-
-
-      <div className="container mx-auto text-center">
-        <h2 className="text-4xl xl:text-[3rem] font-normal mb-7 lg:mb-12 text-white outfit-font mt-20">Design Team</h2>
-        <p className="text-white"></p>
-      </div>
-      <div className="container mx-auto mt-8 albert-font">
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-8">
-          {/* Team Member 1 */}
-          <MemberCard
-            name="Harry Potter"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 2 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 3 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 4 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Add more Team Members as needed */}
-        </div>
-
-        <div className="grid grid-cols-2 lg:grid-cols-3 mt-7 lg:mt-10 lg:ml-10 lg:mr-10 xl:ml-40 xl:mr-40">
-        
-          {/* Team Member 13 */}
-          <MemberCard
-            name="Harry Potter"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 14 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-          <div className="col-span-2 lg:col-span-1 mx-auto">
-          {/* Team Member 15 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-        </div>
-        </div>
-
-      </div>
-
-
-      <div className="container mx-auto text-center">
-        <h2 className="text-4xl xl:text-[3rem] font-normal mb-7 lg:mb-12 text-white outfit-font mt-20">Tech Team</h2>
-        <p className="text-white"></p>
-      </div>
-      <div className="container mx-auto mt-8 albert-font">
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-8">
-          {/* Team Member 1 */}
-          <MemberCard
-            name="Harry Potter"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 2 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 3 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 4 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Add more Team Members as needed */}
-        </div>
-
-        <div className="grid grid-cols-2 lg:grid-cols-3 mt-7 lg:mt-10 lg:ml-10 lg:mr-10 xl:ml-40 xl:mr-40">
-        
-          {/* Team Member 13 */}
-          <MemberCard
-            name="Harry Potter"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-
-          {/* Team Member 14 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-          <div className="col-span-2 lg:col-span-1 mx-auto">
-          {/* Team Member 15 */}
-          <MemberCard
-            name="Another Member"
-            position=""
-            image={teamMemberImage1}
-            instagram="#"
-            linkedin="#"
-          />
-        </div>
-        </div>
-
-      </div>
+      </section>
 
     </section>
   );

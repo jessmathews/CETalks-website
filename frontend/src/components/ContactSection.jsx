@@ -45,7 +45,7 @@ const ContactSection = () => {
    
 
   return (
-    <section className="contact-section py-5 bg-dark-blue">
+    <section className="contact-section py-5 bg-dust">
       <div className="contact-top py-lg-5 py-md-4 py-2">
         <div className="container mx-auto">
           <div className="title-container text-center mx-auto mb-md-5 mb-4" style={{ maxWidth: '500px' }}>
