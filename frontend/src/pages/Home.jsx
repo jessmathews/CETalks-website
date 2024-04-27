@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Spotify from '../components/SpotifyHomePage';
 import Youtube from '../components/YoutubeVideoHomePage';
-import UpcomingEvents from '../components/Upcomingevents';
+import PastEvents from '../components/Pastevents';
 import Testimonials from '../components/Testimonials';
 import Carousel from '../components/Carousel'
 import mic from '../assets/img/general/mic.png';
@@ -40,7 +40,7 @@ const Home = () => {
         
         <Spotify />
         <Youtube />
-        <UpcomingEvents />
+        <PastEvents />
         <Testimonials />
         <Footer />
         
