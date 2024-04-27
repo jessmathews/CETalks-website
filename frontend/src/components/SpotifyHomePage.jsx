@@ -26,9 +26,9 @@ const SpotifyHomePage = () => {
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    speed: 2000,
+    speed: 700,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 5000,
     responsive: [
       {
         breakpoint: 950, // Adjust the breakpoint as needed
