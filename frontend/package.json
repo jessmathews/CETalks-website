@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jessmathews.github.io/CETalks-website/",
+  "homepage": "https://jessmathews.github.io/CETalks-website",
   "scripts": {
     "debug": "echo %PATH%",
     "dev": "vite",
