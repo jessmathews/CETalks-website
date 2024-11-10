@@ -9,15 +9,15 @@ const SpotifyHomePage = () => {
   const spotifyData = [
     {
       title: 'Event 1',
-      spotifyUrl: 'https://open.spotify.com/embed/episode/2m0BbuBf8tFu1NuiPyKoD7?utm_source=generator&t=0',
+      spotifyUrl: 'https://open.spotify.com/embed/episode/3ABHzLmDaXjzJS9kOssVvI?utm_source=generator&t=0',
     },
     {
       title: 'Event 2',
-      spotifyUrl: 'https://open.spotify.com/embed/episode/5k0yZRvDLbCBMfUY3cPEKZ?utm_source=generator&t=0',
+      spotifyUrl: 'https://open.spotify.com/embed/episode/3PZebM56oHCNnsYBGlG1iZ?utm_source=generator&t=0',
     },
     {
       title: 'Event 3',
-      spotifyUrl: 'https://open.spotify.com/embed/episode/2MnNwUgxxkVUnleU3BCikd?utm_source=generator&t=0',
+      spotifyUrl: 'https://open.spotify.com/embed/episode/6e7rsxV8uHvPicQwPMnijR?utm_source=generator&t=0',
     },
   ];
 
