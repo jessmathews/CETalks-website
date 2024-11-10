@@ -78,6 +78,7 @@
     height: min-content;
 
     justify-content: center;
+    gap: 20px;
     /* padding: 20px; */
 }
 
@@ -100,7 +101,7 @@
     width: 100%;
     padding: 0px 30px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
     /* width: 50%; */

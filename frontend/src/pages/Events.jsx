@@ -10,21 +10,22 @@ import "../styles/events.css"
 import { array } from 'prop-types';
 import spotlight3 from '../assets/event_posters/spotlight3.jpeg';
 import detox from '../assets/event_posters/detox.jpeg';
-import get_set_radio from '../assets/event_posters/get_set_radio.jpeg';
+import easter_egg_hunt from '../assets/event_posters/easter_egg_hunt.jpg';
 import spotlight_2018 from '../assets/event_posters/spot_light_2018.jpeg';
 import spotlight_2 from '../assets/event_posters/spotlight2.jpeg';
-import therenjeduppu from '../assets/event_posters/therenjeduppu.jpeg';
+import Thuranneduppu from '../assets/event_posters/thuranneduppu.jpeg';
+import spotlight_2024 from '../assets/event_posters/spotlight_2024.jpg';
 const Events = () => {
   // Your Events component logic
 
   let allEvents = [
 
-    ['Spotlight 2022' , spotlight3,'Spotlight, the dynamic talent showcase curated by CETALKS, brings you an unforgettable evening of entertainment! From seasoned professionals to fresh faces, this is your chance to witness a lineup of incredible artists who will leave you spellbound. With performances ranging from soulful melodies to rib-tickling humor, get set for a night of laughter, music, and endless entertainment!'],
-    ['Detox' , detox, 'content to be added soon'],
-    ['Get Set Radio',get_set_radio, 'content to be added soon'],
-    ['Spotlight 2018' , spotlight_2018, 'content to be added soon'],
-    ['Spotlight 2' , spotlight_2, 'content to be added soon'],
-    ['Therenjeduppu' , therenjeduppu, 'content to be added soon'],
+    ['Spotlight 2024' , spotlight_2024,'Spotlight, the dynamic talent showcase curated by CETALKS, brings you an unforgettable evening of entertainment! From seasoned professionals to fresh faces, this is your chance to witness a lineup of incredible artists who will leave you spellbound. With performances ranging from soulful melodies to rib-tickling humor, get set for a night of laughter, music, and endless entertainment!'],
+    ['Detox' , detox, 'As part of the technical fest Drishti, CETalks collaborated with Drishti under the banner of DTalks to host an open mic event called Detox. Detox ran throughout the entire duration of the fest, offering a platform for participants to share their thoughts and talents.'],
+    ['Easter Egg Hunt',easter_egg_hunt, 'An easter egg hunt competition was held as part of easter on 26th March 2024 and the winning team was awarded a special prize.'],
+    // ['Spotlight 2018' , spotlight_2018, 'content to be added soon'],
+    // ['Spotlight 2' , spotlight_2, 'content to be added soon'],
+    ['തുരന്നെടുപ്പ്' , Thuranneduppu, `'തുരന്നെടുപ്പ് ' was a podcasts series dedicated to engaging discussions about the ongoing college elections 2023. It had three episodes on Spotify providing insights. In addition to the episodes, the series also released an exit poll on YouTube, further fueling the election excitement.'`],
     
   ]
 
@@ -72,7 +73,9 @@ const Events = () => {
        {/*  upcoming event section */}
 
         <div className="upcoming_events">
-          <div className="events_data_heading"><h3 className='h_upcoming'>Upcoming</h3><h3 className='h_events'>EVENTS</h3></div>
+          <div className="events_data_heading">
+            <h3 className='h_upcoming'>Flagship</h3>
+          <h3 className='h_events'>EVENTS</h3></div>
           <EventData showRegisterButton={true} details = {latestEvent}/>
         </div>
 
