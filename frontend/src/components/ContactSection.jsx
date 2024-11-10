@@ -112,13 +112,13 @@ const ContactSection = () => {
             <div className="col-md-4 contact-info ps-lg-5 mt-md-0 mt-4 ml-6">
               <div className="title-style mb-4 text-[2.3rem] font-[500] text-yellow-200">Contact Info</div>
               <div className="contact-details">
-                <a href="mailto:hello@example.com" className="contact-link text-primary">
-                  <p className="contact-text text-white text-[1.3rem] p-3 hover:text-yellow-100">hello@example.com</p>
+                <a href="mailto:cetonlineradio@gmail.com" className="contact-link text-primary">
+                  <p className="contact-text text-white text-[1.3rem] p-3 hover:text-yellow-100">cetonlineradio@gmail.com</p>
                 </a>
-                <a href="tel:+7-800-999-800" className="contact-link text-primary">
+                {/* <a href="tel:+7-800-999-800" className="contact-link text-primary">
                   <p className="contact-text text-white text-[1.3rem] p-3 hover:text-yellow-100">+7-800-999-800</p>
-                </a>
-                <p className="contact-text text-white text-[1.3rem] p-3 hover:text-yellow-100">College Of Engineering Trivandrum, Sreekaryam, <br />Trivandrum.</p>
+                </a> */}
+                <p className="contact-text text-white text-[1.3rem] p-3 hover:text-yellow-100">College Of Engineering Trivandrum,<br></br> Sreekaryam, <br />Trivandrum.</p>
                 <div className="social-buttons mt-4 flex">
                   <a href="https://www.facebook.com/CETalks/" className="social-link text-primary hover:text-red-500">
                     <img src={facebookIcon} alt="Facebook" className="icon h-8" />
