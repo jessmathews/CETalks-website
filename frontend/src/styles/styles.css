@@ -1,0 +1,138 @@
+/* Import the Nunito Sans font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+nav a {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: large;
+}
+
+.cetalks-font {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 5px;
+  }
+
+.outfit-font {
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .albert-font {
+    font-family: "Albert Sans", sans-serif;
+  }
+
+.member-img {
+    position: relative;
+  }
+
+.member-img img {
+    transition: filter 0.5s ease; /* Add a transition for a smoother effect */
+  }
+  
+  
+.member-img:hover img{
+    filter: grayscale(100%);
+  }
+
+.bg-26221E {
+    background-color: white;
+  }
+
+  .bg-firebrick-100 {
+    background-color: rgb(202 48 53 / 1);
+  }
+
+.hover\:bg-salmon-100:hover {
+  background-color: rgb(240 87 92 /1);
+}
+
+.hover\:bg-salmon-200:hover  {
+  background-color: rgba(240, 87, 92, 0.09);
+}
+
+.hover\:border-salmon-100:hover {
+  border-color: rgb(240 87 92 /1);
+}
+
+.border-firebrick-100 {
+    border-color: rgb(202 48 53 / 1);
+}
+
+@media (max-width: 767px) {
+  .responsive-ytiframe-homepage {
+    height: 15rem; /* Adjust the height for smaller screens as needed */
+  }
+}
+
+.max-w-yif {
+  max-width: 50vw;
+}
+
+@media (max-width: 767px) {
+  .max-w-yif {
+    max-width: 80vw; /* Adjust the percentage as needed */
+  }
+}
+
+@media (max-width: 991px) {
+  .max-w-yif {
+    max-width: 70vw; /* Adjust the percentage as needed */
+  }
+}
+
+.max-w-sif {
+  max-width: 50vw;
+}
+
+@media (max-width: 767px) {
+  .max-w-sif {
+    max-width: 80vw; /* Adjust the percentage as needed */
+  }
+}
+
+@media (max-width: 991px) {
+  .max-w-sif {
+    max-width: 70vw; /* Adjust the percentage as needed */
+  }
+}
+
+@media (max-width: 500px) {
+  .max-w-sif {
+    max-width: 90vw; /* Adjust the percentage as needed */
+  }
+  .max-w-yif {
+    max-width: 90vw; /* Adjust the percentage as needed */
+  }
+}
+
+
+.ytm-video-container {
+  height: 150px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: yellow;
+  border-width: 0.25px;
+}
+
+@media (max-width: 500px) {
+  .ytm-video-container {
+    height: 100px; /* Adjust the height as needed */
+  }
+}
+
+.ytm-title-container {
+  text-align: left;
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.gradient-border {
+
+    /* background: linear-gradient(, #E8E034, #CA3035); */
+    border-bottom: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #E8E034, #CA3035);
+    
+}
